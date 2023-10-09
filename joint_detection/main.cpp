@@ -161,7 +161,7 @@ int main()
                 std::cout << "Error! Get depth frame time out!" << std::endl;
                 break;
             }
-        } while (frame_count < 100);
+        } while (frame_count < 10);
         std::cout << "Finished body tracking processing!" << std::endl;
 
     }
