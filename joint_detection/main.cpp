@@ -20,7 +20,7 @@ struct Joint {
     float orientationx;
     float orientationy;
     float orientationz;
-    float confidence_level; 
+    //float confidence_level; 
   };
 
 void output_data_to_file(Joint joint_data[]){
@@ -33,13 +33,18 @@ void output_data_to_file(Joint joint_data[]){
         joint_data_file << joint_data[i].orientation_scalar << ", ";
         joint_data_file << joint_data[i].orientationx << ",";
         joint_data_file << joint_data[i].orientationy << ",";
-        joint_data_file << joint_data[i].orientationz << ",";
         if(i == (int)K4ABT_JOINT_COUNT-1) {
-            joint_data_file << joint_data[i].confidence_level << "";
+            joint_data_file << joint_data[i].orientationy << "";
         }
         else {
-            joint_data_file << joint_data[i].confidence_level << ", ";
+            joint_data_file << joint_data[i].orientationz << ",";
         }
+        // if(i == (int)K4ABT_JOINT_COUNT-1) {
+        //     joint_data_file << joint_data[i].confidence_level << "";
+        // }
+        // else {
+        //     joint_data_file << joint_data[i].confidence_level << ", ";
+        // }
     }
     joint_data_file << "]" << "\n"; 
 }
@@ -63,7 +68,7 @@ void print_body_information(k4abt_body_t body)
         joint_data[i].orientationx = orientation.v[1];
         joint_data[i].orientationy = orientation.v[2];
         joint_data[i].orientationz = orientation.v[3];
-        joint_data[i].confidence_level = confidence_level;
+        //joint_data[i].confidence_level = confidence_level;
     }
     output_data_to_file(joint_data);
 }
@@ -161,7 +166,7 @@ int main()
                 std::cout << "Error! Get depth frame time out!" << std::endl;
                 break;
             }
-        } while (frame_count < 10);
+        } while (frame_count < 100);
         std::cout << "Finished body tracking processing!" << std::endl;
 
     }
