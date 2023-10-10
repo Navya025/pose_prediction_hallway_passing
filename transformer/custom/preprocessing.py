@@ -28,8 +28,8 @@ def process_data(filename):
     
     
     #create a new file to write the processed data string to
-    with open('processed_data.txt', 'w') as f:
-        f.write("PROCESSED DATA: FORMAT = X, Y, Z, Angle, Axis X, Axis Y, Axis Z\n\n")
+    with open('processed_train.txt', 'w') as f:
+        f.write("PROCESSED TRAINING DATA: FORMAT = X, Y, Z, Angle, Axis X, Axis Y, Axis Z\n\n")
         f.write(final_string)
         f.write("\n\nEND OF PROCESSED DATA\n\n")
         f.close()
@@ -39,7 +39,11 @@ def process_data(filename):
 
 # param - frame is a single line of text from the data file 
 # representing all the joints of a single frame
-def process_frame(frame, num_joints=25, num_features=7):
+def process_frame(frame, num_joints=31, num_features=7):
+    
+    #remove the first and last character in each line (brackets)
+    frame = frame[1:-1]
+    
     #split the frame into a list of numbers
     frame = frame.split()
     
@@ -108,3 +112,12 @@ class KinectDataset(Dataset):
         sample_input = torch.tensor(self.data[index])  # get frame idx
         sample_target = torch.tensor(self.data[index + 2])  # get frame idx+2
         return sample_input, sample_target
+    
+if __name__ == "__main__":
+    # Filename of raw data to process
+    raw_data_file = "data/raw_train.txt"
+
+    # Process the data
+    process_data(raw_data_file)
+
+    print(f"Data processing complete. Processed data saved to 'processed_train.txt'.")
