@@ -39,13 +39,13 @@ def process_data(filename):
 
 # param - frame is a single line of text from the data file 
 # representing all the joints of a single frame
-def process_frame(frame, num_joints=31, num_features=7):
+def process_frame(frame, num_joints=32, num_features=7):
     
     #remove the first and last character in each line (brackets)
     frame = frame[1:-1]
     
     #split the frame into a list of numbers
-    frame = frame.split()
+    frame = [num.strip() for num in frame.split(',')]
     
     #convert each number from a string to a float
     frame = [float(num) for num in frame]
