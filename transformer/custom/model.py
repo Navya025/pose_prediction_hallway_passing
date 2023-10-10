@@ -19,6 +19,7 @@ class CustomTransformerInput(nn.Module):
         return combined_embedding
 
 
+
 class TransformerBlock(nn.Module):
     """
     A single transformer block with multi-head attention followed by a feed-forward network.
@@ -65,13 +66,14 @@ class PosePredictionTransformer(nn.Module):
         # Custom input embedding
         self.input_embedding = CustomTransformerInput(feature_size, d_model)
         
-        # Stack of Transformer blocks
+        # Stack of Transformer blocks (hidden layers)
         self.blocks = nn.ModuleList(
             [TransformerBlock(d_model, num_heads) for _ in range(num_layers)]
         )
 
         # Output layer
-        # Assuming the output also has 6 features for each joint
+        # Assuming the output also has 7 features for each joint
+        # May need to update this to only output pelvis joint
         self.output_layer = nn.Linear(d_model, feature_size)
 
     def forward(self, x, mask=None):
