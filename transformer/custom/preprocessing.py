@@ -17,14 +17,14 @@ def process_data(filename):
     
     #split the data into lines
     lines = data.split('\n')
-    
+    final_string = ""
     #process each line of data, add it to a string
     for line in lines:
             processed_frame = process_frame(line)
-            final_string = ""
+            
             #write the processed data to the new file in the specified format
             for i in range(0, len(processed_frame), 7):
-                final_string+= "{processed_frame[i]}, {processed_frame[i+1]}, {processed_frame[i+2]}, {processed_frame[i+3]}, {processed_frame[i+4]}, {processed_frame[i+5]}, {processed_frame[i+6]}\n"
+                final_string+= f"{processed_frame[i]}, {processed_frame[i+1]}, {processed_frame[i+2]}, {processed_frame[i+3]}, {processed_frame[i+4]}, {processed_frame[i+5]}, {processed_frame[i+6]}\n"
     
     
     #create a new file to write the processed data string to
@@ -48,7 +48,7 @@ def process_frame(frame, num_joints=32, num_features=7):
     frame = [num.strip() for num in frame.split(',')]
     
     #convert each number from a string to a float
-    frame = [float(num) for num in frame]
+    frame = [float(num.strip()) for num in frame]
     
     #convert the list into a numpy array
     frame = np.array(frame)
@@ -63,25 +63,25 @@ def process_frame(frame, num_joints=32, num_features=7):
     for i in range(num_joints):
         #get the joint position (first three elements of each row)
         joint_position = frame[i, :3]
-        
         #get the joint orientation (last four elements of each row)
         joint_orientation = frame[i, 3:]
-        
         rodrigues_rotation = quat_to_rodrigues(joint_orientation)
         
+        index = i * num_features
+
         #positional components of final data for each joint in each frame
-        processed_frame[i] = joint_position[0] #x
-        processed_frame[i + 1] = joint_position[1] #y
-        processed_frame[i + 2] = joint_position[2] #z
+        processed_frame[index] = joint_position[0] #x
+        processed_frame[index + 1] = joint_position[1] #y
+        processed_frame[index + 2] = joint_position[2] #z
         #Rodrigues rotation formula
-        processed_frame[i + 3] = rodrigues_rotation[0] #angle
-        processed_frame[i + 4] = rodrigues_rotation[1][0] #axis x
-        processed_frame[i + 5] = rodrigues_rotation[1][1] #axis y
-        processed_frame[i + 6] = rodrigues_rotation[1][2] #axis z
+        processed_frame[index + 3] = rodrigues_rotation[0] #angle
+        processed_frame[index + 4] = rodrigues_rotation[1][0] #axis x
+        processed_frame[index + 5] = rodrigues_rotation[1][1] #axis y
+        processed_frame[index + 6] = rodrigues_rotation[1][2] #axis z
     
     #return the processed frame
     return processed_frame
-
+final_string = ""
 # Converts Kinect rotation quaternion to Rodrigues rotation vector
 def quat_to_rodrigues(quaternion):
     # Convert quaternion to Rotation object
