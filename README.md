@@ -13,7 +13,7 @@ Verify the download by running k4aviewer. This will open the Azure Kinect, to st
 To run body tracking use the command k4abt_simple_3d_viewer.
 
 ### Step 3: Run Code
-Run the code (after you cd into the joint_recognition folder) with this command: g++ main.cpp -Wall -I/home/bwilab/hallway_lane_detection_fri2/Azure-Kinect-Sensor-SDK -L/home/bwilab/hallway_lane_detection_fri2/Azure-Kinect-Sensor-SDK -lk4a -lk4abt -o prog
+Run the code (after you cd into the joint_recognition folder) with this command: g++ main.cpp -Wall -I/home/bwilab/hallway_lane_detection_fri2/Azure-Kinect-Sensor-SDK -L/home/bwilab/hallway_lane_detection_fri2/Azure-Kinect-Sensor-SDK -lk4a -lk4abt -o a.out
 
 This will create an output file in the same directory, to view the data run ./[insert name of output file], for example if the output file is a.out, run ./a.out.
 
