@@ -23,8 +23,7 @@ def process_data(filename):
             processed_frame = process_frame(line)
             
             #write the processed data to the new file in the specified format
-            for i in range(0, len(processed_frame), 7):
-                final_string+= f"{processed_frame[i]}, {processed_frame[i+1]}, {processed_frame[i+2]}, {processed_frame[i+3]}, {processed_frame[i+4]}, {processed_frame[i+5]}, {processed_frame[i+6]}\n"
+            final_string+= f"{processed_frame}\n"
     
     
     #create a new file to write the processed data string to
@@ -80,7 +79,7 @@ def process_frame(frame, num_joints=32, num_features=7):
         processed_frame[index + 6] = rodrigues_rotation[1][2] #axis z
     
     #return the processed frame
-    return processed_frame
+    return processed_frame.tolist()
 final_string = ""
 # Converts Kinect rotation quaternion to Rodrigues rotation vector
 def quat_to_rodrigues(quaternion):
@@ -99,19 +98,28 @@ def quat_to_rodrigues(quaternion):
 
 # Wrapper class for the Kinect dataset (operates on processed_data.txt)
 class KinectDataset(Dataset):
-    def __init__(self, filename):
-        with open(filename, 'r') as f:
+    def __init__(self, file_path):
+        with open(file_path, 'r') as f:
             lines = f.readlines()[2:-2]  # skipping the header and end notes
-            self.data = [list(map(float, line.strip().split(','))) for line in lines]
+            self.data = [list(map(float, line.strip()[1:-1].split(','))) for line in lines]
 
     def __len__(self):
-        return len(self.data) - 2  # adjust to avoid indexing out of range
+        # Minus 9 because we're taking 5 frames for input and 5 for target.
+        # Therefore, the last possible starting index is len(self.data) - 10
+        return len(self.data) - 9
 
-    #gets a specific frame from the input data
     def __getitem__(self, index):
-        sample_input = torch.tensor(self.data[index])  # get frame idx
-        sample_target = torch.tensor(self.data[index + 2])  # get frame idx+2
-        return sample_input, sample_target
+        # Input consists of frames from index to index + 4
+        sample = self.data[index:index + 5]
+        # Target consists of frames from index + 5 to index + 9
+        target = self.data[index + 5:index + 10]
+
+        # Convert the sample and target to PyTorch tensors
+        sample = torch.tensor(sample, dtype=torch.float32)
+        target = torch.tensor(target, dtype=torch.float32)
+
+        return sample, target
+
     
 if __name__ == "__main__":
     # Filename of raw data to process
