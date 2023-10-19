@@ -9,6 +9,7 @@ from scipy.spatial.transform import Rotation
 import torch
 from torch.utils.data import Dataset, DataLoader
 
+num_frames = 5
 # Processes the entire file of raw data and writes it to a new file.
 def process_data(filename):
     #read from the filename file in /data directory
@@ -106,13 +107,13 @@ class KinectDataset(Dataset):
     def __len__(self):
         # Minus 9 because we're taking 5 frames for input and 5 for target.
         # Therefore, the last possible starting index is len(self.data) - 10
-        return len(self.data) - 9
+        return len(self.data) - (num_frames * 2 - 1)
 
     def __getitem__(self, index):
         # Input consists of frames from index to index + 4
-        sample = self.data[index:index + 5]
+        sample = self.data[index:index + num_frames]
         # Target consists of frames from index + 5 to index + 9
-        target = self.data[index + 5:index + 10]
+        target = self.data[index + num_frames:index + num_frames * 2]
 
         # Convert the sample and target to PyTorch tensors
         sample = torch.tensor(sample, dtype=torch.float32)
