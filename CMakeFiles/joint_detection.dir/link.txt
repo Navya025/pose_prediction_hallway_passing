@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/joint_detection.dir/main.cpp.o -o /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/joint_detection  -lk4a -lk4abt 

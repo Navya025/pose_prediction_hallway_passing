@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/joint_visualization.dir/joint_visualization/visualize.cpp.o -o joint_visualization  -lGL -lGLU -lglfw -lGLEW_1130 -lglm 
