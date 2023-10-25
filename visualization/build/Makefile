@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named joint_visualization
+# Target rules for targets named joint_visualizations
 
 # Build rule for target.
-joint_visualization: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joint_visualization
-.PHONY : joint_visualization
+joint_visualizations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joint_visualizations
+.PHONY : joint_visualizations
 
 # fast build rule for target.
-joint_visualization/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualization.dir/build.make CMakeFiles/joint_visualization.dir/build
-.PHONY : joint_visualization/fast
+joint_visualizations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualizations.dir/build.make CMakeFiles/joint_visualizations.dir/build
+.PHONY : joint_visualizations/fast
 
-joint_visualization/visualize.o: joint_visualization/visualize.cpp.o
-.PHONY : joint_visualization/visualize.o
+joint_visualizations/visualize.o: joint_visualizations/visualize.cpp.o
+.PHONY : joint_visualizations/visualize.o
 
 # target to build an object file
-joint_visualization/visualize.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualization.dir/build.make CMakeFiles/joint_visualization.dir/joint_visualization/visualize.cpp.o
-.PHONY : joint_visualization/visualize.cpp.o
+joint_visualizations/visualize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualizations.dir/build.make CMakeFiles/joint_visualizations.dir/joint_visualizations/visualize.cpp.o
+.PHONY : joint_visualizations/visualize.cpp.o
 
-joint_visualization/visualize.i: joint_visualization/visualize.cpp.i
-.PHONY : joint_visualization/visualize.i
+joint_visualizations/visualize.i: joint_visualizations/visualize.cpp.i
+.PHONY : joint_visualizations/visualize.i
 
 # target to preprocess a source file
-joint_visualization/visualize.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualization.dir/build.make CMakeFiles/joint_visualization.dir/joint_visualization/visualize.cpp.i
-.PHONY : joint_visualization/visualize.cpp.i
+joint_visualizations/visualize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualizations.dir/build.make CMakeFiles/joint_visualizations.dir/joint_visualizations/visualize.cpp.i
+.PHONY : joint_visualizations/visualize.cpp.i
 
-joint_visualization/visualize.s: joint_visualization/visualize.cpp.s
-.PHONY : joint_visualization/visualize.s
+joint_visualizations/visualize.s: joint_visualizations/visualize.cpp.s
+.PHONY : joint_visualizations/visualize.s
 
 # target to generate assembly for a file
-joint_visualization/visualize.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualization.dir/build.make CMakeFiles/joint_visualization.dir/joint_visualization/visualize.cpp.s
-.PHONY : joint_visualization/visualize.cpp.s
+joint_visualizations/visualize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_visualizations.dir/build.make CMakeFiles/joint_visualizations.dir/joint_visualizations/visualize.cpp.s
+.PHONY : joint_visualizations/visualize.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... joint_visualization"
-	@echo "... joint_visualization/visualize.o"
-	@echo "... joint_visualization/visualize.i"
-	@echo "... joint_visualization/visualize.s"
+	@echo "... joint_visualizations"
+	@echo "... joint_visualizations/visualize.o"
+	@echo "... joint_visualizations/visualize.i"
+	@echo "... joint_visualizations/visualize.s"
 .PHONY : help
 
 

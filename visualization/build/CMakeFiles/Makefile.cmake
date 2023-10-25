@@ -128,5 +128,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/joint_visualization.dir/DependInfo.cmake"
+  "CMakeFiles/joint_visualizations.dir/DependInfo.cmake"
   )

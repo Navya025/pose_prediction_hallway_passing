@@ -36,12 +36,24 @@ add_definitions(
 )
 
 # Tutorial 1
-add_executable(joint_visualization joint_visualization/visualize.cpp
-)
-target_link_libraries(joint_visualization
+add_executable(joint_visualizations joint_visualizations/visualize.cpp)
+
+target_link_libraries(joint_visualizations
 	${ALL_LIBS}
 	GLEW::GLEW
 )
 # Xcode and Visual working directories
-set_target_properties(joint_visualization PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/joint_visualization/")
+set_target_properties(joint_visualizations PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/joint_visualizations/")
 
+# User playground
+add_executable(playground 
+	playground.cpp
+	common/shader.cpp
+	common/shader.hpp
+)
+target_link_libraries(playground
+	${ALL_LIBS}
+)
+# Xcode and Visual working directories
+set_target_properties(playground PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
+create_target_launcher(playground WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
