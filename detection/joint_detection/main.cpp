@@ -9,7 +9,7 @@
 #include <fstream>
 using namespace std;
 
-std::ofstream joint_data_file("/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/joint_detection/joint_data.txt", ofstream::app);
+std::ofstream joint_data_file("/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/detection/joint_detection/joint_data.txt", ofstream::app);
 
 struct Joint {
     int uid;
@@ -100,7 +100,7 @@ int main()
 {
     try
     {
-        ofstream joint_data_file("/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/joint_detection/joint_data.txt");
+        ofstream joint_data_file("/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/detection/joint_detection/joint_data.txt");
 
         k4a_device_configuration_t device_config = K4A_DEVICE_CONFIG_INIT_DISABLE_ALL;
         device_config.depth_mode = K4A_DEPTH_MODE_NFOV_UNBINNED;
@@ -166,7 +166,7 @@ int main()
                 std::cout << "Error! Get depth frame time out!" << std::endl;
                 break;
             }
-        } while (frame_count < 100);
+        } while (frame_count < 150);
         std::cout << "Finished body tracking processing!" << std::endl;
 
     }
