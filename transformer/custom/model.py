@@ -27,7 +27,7 @@ class CustomTransformerInput(nn.Module):
 
 class PositionalEncoding(nn.Module):
 
-    def __init__(self, d_model: int, dropout: float = 0.1, max_len: int = 5):
+    def __init__(self, d_model: int, dropout: float = 0.1, max_len: int = num_frames):
         super().__init__()
         self.dropout = nn.Dropout(p=dropout)
 
@@ -51,7 +51,7 @@ class PosePredictionTransformer(nn.Module):
     """
     Main model for predicting joint orientations using nn.Transformer.
     """
-    def __init__(self, num_layers, d_model, num_heads, num_features=7, seq_len=5):
+    def __init__(self, num_layers, d_model, num_heads, num_features=7, seq_len=num_frames):
         super(PosePredictionTransformer, self).__init__()
         
         self.input_embedding = CustomTransformerInput(d_model)
@@ -59,7 +59,7 @@ class PosePredictionTransformer(nn.Module):
 
         self.transformer = nn.Transformer(d_model, num_heads, num_layers)
         
-        # Output a 5x(32x7) matrix, using a time-distributed-like linear layer
+        # Output a num_framesx(32x7) matrix, using a time-distributed-like linear layer
         self.output_layer = nn.Linear(d_model, num_joints*num_features)
 
     def forward(self, x, mask=None):

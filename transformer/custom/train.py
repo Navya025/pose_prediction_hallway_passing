@@ -15,7 +15,7 @@ LEARNING_RATE = 0.001
 
 #Adjust model parameters here
 num_layers = 3
-d_model = 512
+d_model = 256
 num_heads = 8
 
 #TensorBoard writer
@@ -78,7 +78,7 @@ for epoch in range(EPOCHS):
 
             # Calculate validation accuracy
             # within 1% of target value = success
-            correct += torch.sum(torch.abs(outputs - target) < 10)
+            correct += torch.sum(torch.abs(outputs - target) < 0.1)
             total += target.numel()
 
         val_loss_epoch = val_loss / len(val_dataloader)
