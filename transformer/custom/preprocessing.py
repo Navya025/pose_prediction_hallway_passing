@@ -9,9 +9,13 @@ from scipy.spatial.transform import Rotation
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-num_frames = 5
+num_frames = 5 #number of frames in input/output sequences
+GLOBAL_MIN = float('inf') #find min/max for normalization
+GLOBAL_MAX = float('-inf')
+
 # Processes the entire file of raw data and writes it to a new file.
 def process_data(filename):
+    global GLOBAL_MIN, GLOBAL_MAX
     #read from the filename file in /data directory
     with open(filename, 'r') as f:
         data = f.read()
@@ -19,6 +23,24 @@ def process_data(filename):
     #split the data into lines
     lines = data.split('\n')
     final_string = ""
+    #initial pass to find min/max for normalization
+    for line in lines:
+        frame = [float(num.strip()) for num in line[1:-1].split(',')]
+        current_min = min(frame[::7])  # take every 7th value starting from 0th, which are x coordinates
+        current_max = max(frame[::7])  
+        GLOBAL_MIN = min(GLOBAL_MIN, current_min)
+        GLOBAL_MAX = max(GLOBAL_MAX, current_max)
+
+        current_min = min(frame[1::7])  # y coordinates
+        current_max = max(frame[1::7])  
+        GLOBAL_MIN = min(GLOBAL_MIN, current_min)
+        GLOBAL_MAX = max(GLOBAL_MAX, current_max)
+
+        current_min = min(frame[2::7])  # z coordinates
+        current_max = max(frame[2::7])  
+        GLOBAL_MIN = min(GLOBAL_MIN, current_min)
+        GLOBAL_MAX = max(GLOBAL_MAX, current_max)
+    
     #process each line of data, add it to a string
     for line in lines:
             processed_frame = process_frame(line)
@@ -29,7 +51,8 @@ def process_data(filename):
     
     #create a new file to write the processed data string to
     with open('processed_train.txt', 'w') as f:
-        f.write("PROCESSED TRAINING DATA: FORMAT = X, Y, Z, Angle, Axis X, Axis Y, Axis Z\n\n")
+        f.write("PROCESSED TRAINING DATA: FORMAT = X, Y, Z, Angle, Axis X, Axis Y, Axis Z\n")
+        f.write("GLOBAL_MIN: " + str(GLOBAL_MIN) + "\n" + "GLOBAL_MAX: " + str(GLOBAL_MAX) + "\n\n")
         f.write(final_string)
         f.write("\n\nEND OF PROCESSED DATA\n\n")
         f.close()
@@ -40,7 +63,7 @@ def process_data(filename):
 # param - frame is a single line of text from the data file 
 # representing all the joints of a single frame
 def process_frame(frame, num_joints=32, num_features=7):
-    
+    global GLOBAL_MIN, GLOBAL_MAX
     #remove the first and last character in each line (brackets)
     frame = frame[1:-1]
     
@@ -63,6 +86,8 @@ def process_frame(frame, num_joints=32, num_features=7):
     for i in range(num_joints):
         #get the joint position (first three elements of each row)
         joint_position = frame[i, :3]
+        #apply min-max normalization to the XYZ coordinates
+        joint_position = (joint_position - GLOBAL_MIN) / (GLOBAL_MAX - GLOBAL_MIN)
         #get the joint orientation (last four elements of each row)
         joint_orientation = frame[i, 3:]
         rodrigues_rotation = quat_to_rodrigues(joint_orientation)
@@ -101,7 +126,7 @@ def quat_to_rodrigues(quaternion):
 class KinectDataset(Dataset):
     def __init__(self, file_path):
         with open(file_path, 'r') as f:
-            lines = f.readlines()[2:-2]  # skipping the header and end notes
+            lines = f.readlines()[4:-2]  # skipping the header and end notes
             self.data = [list(map(float, line.strip()[1:-1].split(','))) for line in lines]
 
     def __len__(self):
