@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 typedef struct {
-    float x, y, z;
+    float x, y;
 } Point;
 
 int main() {
@@ -10,7 +10,7 @@ int main() {
     FILE *file = fopen("helper.txt", "r");
 
     char line[4096];
-    Point previous = {0.0f, 0.0f, 0.0f}; 
+    Point previous = {0.0f, 0.0f}; 
 
     // array of points
     Point *points = NULL;
@@ -21,13 +21,12 @@ int main() {
         float x, y, z;
         if (sscanf(line, "[%f,%f,%f", &x, &y, &z) == 3) {
             // point struct to hold pelvis x, y, z of current frame
-            Point current = {x, y, z};
+            Point current = {x, y};
 
             // calculate displacement from previous point
             Point displacement = {
                 current.x - previous.x,
-                current.y - previous.y,
-                current.z - previous.z
+                current.y - previous.y
             };
 
             // add displacement to the array
@@ -46,7 +45,7 @@ int main() {
     // printing for debugging
     printf("\nPoints in the array:\n");
     for (size_t i = 0; i < count; i++) {
-        printf("%.2f, %.2f, %.2f\n", points[i].x, points[i].y, points[i].z);
+        printf("%.2f, %.2f\n", points[i].x, points[i].y);
     }
 
     // free array

@@ -22,5 +22,7 @@ Run the code (after you cd in visualization/joint_visualization):gcc -o visualiz
 
 This will create an output file which you can run by running: ./visualize
 
+To run the helper.c code it is the same command but change visualize to helper.c
+
 
 

@@ -11,10 +11,15 @@
 
 // Point coordinates
 double px = 81.17, py = 79.05;
-double array[] = {-4.05, 2.72, -0.08, 0.90, -2.06, -0.82, -0.48, 2.53, -1.07, 1.62, -0.40, 0.03, -5.53, 2.84, -4.42, 0.75, -3.86, 2.13};
+int final_count = 0; 
+double array[10];
+typedef struct {
+    float x, y;
+} Point;
+Point *points = NULL;
 
 // Translation parameters
-int tx = 0, ty = 1;
+int tx = 4, ty = 5;
 int translationCount = 0;
 
 // This creates delay between two actions
@@ -22,6 +27,59 @@ void delay(unsigned int mseconds)
 {
     clock_t goal = mseconds + clock();
     while (goal > clock());
+}
+
+
+
+
+void generateArray() {
+     FILE *file = fopen("helper.txt", "r");
+
+    char line[4096];
+    Point previous = {0.0f, 0.0f}; 
+
+    // array of points
+    size_t count = 0;
+
+    while (fgets(line, sizeof(line), file)) {
+        // get x y z and coordinate of first element (pelvis)
+        float x, y, z;
+        if (sscanf(line, "[%f,%f,%f", &x, &y, &z) == 3) {
+            // point struct to hold pelvis x, y, z of current frame
+            Point current = {x, y};
+
+            // calculate displacement from previous point
+            Point displacement = {
+                current.x - previous.x,
+                current.y - previous.y
+            };
+
+            // add displacement to the array
+            points = realloc(points, (count + 1) * sizeof(Point));
+            points[count] = displacement;
+            count++;
+
+            // update previous
+            previous = current;
+        }
+    }
+
+    // close file
+    fclose(file);
+    final_count = count; 
+    // printing for debugging
+    int counter = 2; 
+    printf("\nPoints in the array:\n");
+    for (size_t i = 0; i < final_count; i++) {
+        printf("%.2f, %.2f\n", points[i].x, points[i].y);
+        array[counter] = points[i].x;
+        array[counter + 1] = points[i].y;
+        counter = counter + 2; 
+    }
+
+    // free array
+    free(points);
+
 }
 
 // This is a basic init for the glut window
@@ -95,6 +153,7 @@ void translatePoint(int tx, int ty)
 // Driver code
 int main(int argc, char **argv)
 {
+    generateArray(); 
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(maxWD, maxHT);
