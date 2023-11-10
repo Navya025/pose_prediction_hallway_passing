@@ -6,26 +6,51 @@ typedef struct {
 } Point;
 
 int main() {
-    // open file
+    // get file
     FILE *file = fopen("helper.txt", "r");
 
-    // Read each line from the file
     char line[4096];
+    Point previous = {0.0f, 0.0f, 0.0f}; 
+
+    // array of points
+    Point *points = NULL;
+    size_t count = 0;
+
     while (fgets(line, sizeof(line), file)) {
-        // get x, y, z of pelvis joint
+        // get x y z and coordinate of first element (pelvis)
         float x, y, z;
         if (sscanf(line, "[%f,%f,%f", &x, &y, &z) == 3) {
-            // create Point struct with extracted coordinates
-            Point point = {x, y, z};
+            // point struct to hold pelvis x, y, z of current frame
+            Point current = {x, y, z};
 
-            // output to check while debugging
-            printf("Point: %.2f, %.2f, %.2f\n", point.x, point.y, point.z);
-        } else {
-            // error case if line does not have complete data
-            fprintf(stderr, "Invalid line format: %s", line);
+            // calculate displacement from previous point
+            Point displacement = {
+                current.x - previous.x,
+                current.y - previous.y,
+                current.z - previous.z
+            };
+
+            // add displacement to the array
+            points = realloc(points, (count + 1) * sizeof(Point));
+            points[count] = displacement;
+            count++;
+
+            // update previous
+            previous = current;
         }
     }
+
+    // close file
     fclose(file);
+
+    // printing for debugging
+    printf("\nPoints in the array:\n");
+    for (size_t i = 0; i < count; i++) {
+        printf("%.2f, %.2f, %.2f\n", points[i].x, points[i].y, points[i].z);
+    }
+
+    // free array
+    free(points);
 
     return 0;
 }
