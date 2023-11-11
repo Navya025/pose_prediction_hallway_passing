@@ -144,7 +144,7 @@ void translatePoint(int tx, int ty)
     //     py = 200;
     // }
 
-    glClear(GL_COLOR_BUFFER_BIT);
+    //glClear(GL_COLOR_BUFFER_BIT);
     drawPoint();
     glFlush();
     delay(1); // Adjust the delay if needed
