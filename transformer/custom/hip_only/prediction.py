@@ -30,12 +30,15 @@ def average_overlapping_predictions(predictions, overlap_size):
             else:
                 # Add the non-overlapping predictions
                 averaged_predictions.append(predictions[i][j])
+    for i in range(len(averaged_predictions)):
+        #multiply each element by 1000 just to make it easier to see on OpenGL
+        averaged_predictions[i] = averaged_predictions[i] * 1000
     return averaged_predictions
 
 # Placeholder paths
 model_path = 'lowest_avg.pth'
-data_path = '../data/midterm-processed/curve-left_processed.txt'
-output_path = '../../../visualization/joint_visualizations/left-predict.txt'
+data_path = '../data/midterm-processed/straight-processed.txt'
+output_path = '../../../visualization/joint_visualizations/straight-predict.txt'
 
 # Model parameters (adjust as necessary)
 num_layers = 3

@@ -11,14 +11,14 @@ from torch.utils.tensorboard import SummaryWriter
 
 # Hyperparameters
 BATCH_SIZE = 64
-EPOCHS = 0
+EPOCHS = 1000
 LEARNING_RATE = 0.001
 num_frames = 5
 
 # files to read from
 train_file = "../data/processed_train2.txt"
 val_file = "../data/processed_val2.txt"
-test_file = "../data/test.txt"
+test_file = "../data/midterm-processed/straight-processed.txt"
 
 
 def getGlobalMaxima(file):
@@ -67,7 +67,7 @@ def calculate_average_distance(outputs, target, globalMin, globalMax):
     return average_distance
 
 # global min/max
-globalMin, globalMax = getGlobalMaxima(train_file)
+globalMin, globalMax = getGlobalMaxima(test_file)
 
 # Adjust model parameters here
 num_layers = 3
