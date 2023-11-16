@@ -33,7 +33,7 @@ void delay(unsigned int mseconds)
 
 
 void generateArray() {
-    FILE *file = fopen("1000-straight.txt", "r");
+    FILE *file = fopen("curve-1000-right.txt", "r");
 
     char line[4096];
     Point previous = {0.0f, 0.0f}; 
@@ -87,7 +87,7 @@ void myInit(void)
     glClearColor(1.0, 1.0, 1.0, 0.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(0.0, 300.0, 0.00, 300.0);
+    gluOrtho2D(0.0, 400.0, 0.00, 400.0);
     glClear(GL_COLOR_BUFFER_BIT);
     glFlush();
 }
