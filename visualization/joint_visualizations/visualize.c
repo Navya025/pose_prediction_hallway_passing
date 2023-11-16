@@ -33,7 +33,7 @@ void delay(unsigned int mseconds)
 
 
 void generateArray() {
-    FILE *file = fopen("right-predict.txt", "r");
+    FILE *file = fopen("left-predict.txt", "r");
 
     char line[4096];
     Point previous = {0.0f, 0.0f}; 
@@ -116,7 +116,7 @@ void myDisplay()
 // Timer function for animation
 void timerFunction(int value)
 {
-    if (translationCount < 9)
+    if (translationCount < 94)
     {
         translatePoint(tx, ty);
         glutTimerFunc(1000, timerFunction, 0); // 1000 milliseconds delay
