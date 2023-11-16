@@ -33,10 +33,10 @@ void delay(unsigned int mseconds)
 
 
 void generateArray() {
-    FILE *file = fopen("left-predict.txt", "r");
+    FILE *file = fopen("right-predict.txt", "r");
 
     char line[4096];
-    Point previous = {0.000f, 0.000f}; 
+    Point previous = {0.0f, 0.0f}; 
 
     // array of points
     size_t count = 0;
@@ -47,7 +47,6 @@ void generateArray() {
         if (sscanf(line, "[%f,%f,%f", &x, &y, &z) == 3) {
             // point struct to hold pelvis x, y, z of current frame
             Point current = {x, y};
-
             // calculate displacement from previous point
             Point displacement = {
                 current.x - previous.x,
@@ -71,7 +70,7 @@ void generateArray() {
     int counter = 2; 
     printf("\nPoints in the array:\n");
     for (size_t i = 0; i < final_count; i++) {
-        printf("%.2f, %.2f\n", points[i].x, points[i].y);
+        printf("%.5f, %.5f\n", points[i].x, points[i].y);
         array[counter] = points[i].x;
         array[counter + 1] = points[i].y;
         counter = counter + 2; 
@@ -88,7 +87,7 @@ void myInit(void)
     glClearColor(1.0, 1.0, 1.0, 0.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(50.0, 150.0, 50.0, 150.0);
+    gluOrtho2D(0.0, 300.0, 0.00, 300.0);
     glClear(GL_COLOR_BUFFER_BIT);
     glFlush();
 }
