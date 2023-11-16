@@ -11,14 +11,14 @@ from torch.utils.tensorboard import SummaryWriter
 
 # Hyperparameters
 BATCH_SIZE = 64
-EPOCHS = 1000
+EPOCHS = 0
 LEARNING_RATE = 0.001
 num_frames = 5
 
 # files to read from
 train_file = "../data/processed_train2.txt"
 val_file = "../data/processed_val2.txt"
-test_file = "../data/midterm-processed/straight-processed.txt"
+test_file = "../data/test.txt"
 
 
 def getGlobalMaxima(file):
