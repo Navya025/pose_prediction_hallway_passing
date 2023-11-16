@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    with open('curve-right_processed.txt', "r") as file:
+    with open('../../hip_only/processed_test.txt', "r") as file:
         lines = file.readlines()[4:-2]
 
     output = []
@@ -14,7 +14,7 @@ if __name__ == "__main__":
         output.append(modified_array)
 
 
-    with open('../../../../visualization/joint_visualizations/curve-1000-right.txt', 'w') as file2:
+    with open('../../../../visualization/joint_visualizations/curve-1000-right-final.txt', 'w') as file2:
         for modified_array in output:
             # file2.write(modified_array)
             # Convert modified array elements to strings before writing
