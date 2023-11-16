@@ -191,7 +191,7 @@ def process_all_files(directory_path, output_file):
         process_data(filename)
         # Add separator after processing each file
         final_string += (
-            "NULL" + "\n"
+            filename + "\n" + "NULL" + "\n"
         )
 
     with open(output_file, "w") as f:
@@ -212,9 +212,9 @@ def process_all_files(directory_path, output_file):
 
 if __name__ == "__main__":
     # Directory containing all raw data files
-    raw_data_directory = "../data/raw-main/"
+    raw_data_directory = "../data/midterm-test/"
 
     # Process all files in the directory
-    process_all_files(raw_data_directory, "processed_train2.txt")
+    process_all_files(raw_data_directory, "processed_test.txt")
 
     print(f"Data processing complete. Processed data saved to 'processed_train2.txt'.")
