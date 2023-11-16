@@ -18,7 +18,7 @@ num_frames = 5
 # files to read from
 train_file = "../data/processed_train2.txt"
 val_file = "../data/processed_val2.txt"
-test_file = "../data/midterm-processed/curve-right_processed.txt"
+test_file = "../data/test.txt"
 
 
 def getGlobalMaxima(file):
