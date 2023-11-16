@@ -35,7 +35,7 @@ def average_overlapping_predictions(predictions, overlap_size):
 # Placeholder paths
 model_path = 'lowest_avg.pth'
 data_path = '../data/midterm-processed/straight-processed.txt'
-output_path = '../../../visualization/joint_visualizations/straight-predict.txt'
+output_path = 
 
 # Model parameters (adjust as necessary)
 num_layers = 3
