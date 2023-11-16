@@ -33,7 +33,7 @@ void delay(unsigned int mseconds)
 
 
 void generateArray() {
-    FILE *file = fopen("curve-1000-right.txt", "r");
+    FILE *file = fopen("right-predict.txt", "r");
 
     char line[4096];
     Point previous = {0.0f, 0.0f}; 
@@ -96,7 +96,7 @@ void myInit(void)
 void drawPoint()
 {
     glPointSize(7.0);
-    glColor3f(0.0f, 0.0f, 1.0f);
+    glColor3f(1.0f, 0.0f, 1.0f);
     glBegin(GL_POINTS);
     glVertex2i(px, py);
     glEnd();
@@ -119,7 +119,7 @@ void timerFunction(int value)
     if (translationCount < 94)
     {
         translatePoint(tx, ty);
-        glutTimerFunc(1000, timerFunction, 0); // 1000 milliseconds delay
+        glutTimerFunc(10, timerFunction, 0); // 1000 milliseconds delay
         translationCount++;
         printf("%f\n", array[tx]);
         printf("%f\n", array[ty]); 
