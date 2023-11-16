@@ -50,9 +50,8 @@ def process_data(filename):
     
     
     #create a new file to write the processed data string to
-    with open('processed_train.txt', 'w') as f:
-        f.write("PROCESSED TRAINING DATA: FORMAT = X, Y, Z, Angle, Axis X, Axis Y, Axis Z\n")
-        f.write("GLOBAL_MIN: " + str(GLOBAL_MIN) + "\n" + "GLOBAL_MAX: " + str(GLOBAL_MAX) + "\n\n")
+    with open('processed_train1.txt', 'w') as f:
+        f.write("PROCESSED TRAINING DATA: FORMAT = X, Y, Z, Angle, Axis X, Axis Y, Axis Z\n\n")
         f.write(final_string)
         f.write("\n\nEND OF PROCESSED DATA\n\n")
         f.close()
@@ -86,8 +85,7 @@ def process_frame(frame, num_joints=32, num_features=7):
     for i in range(num_joints):
         #get the joint position (first three elements of each row)
         joint_position = frame[i, :3]
-        #apply min-max normalization to the XYZ coordinates
-        joint_position = (joint_position - GLOBAL_MIN) / (GLOBAL_MAX - GLOBAL_MIN)
+        joint_position = normalize_xyz(joint_position)
         #get the joint orientation (last four elements of each row)
         joint_orientation = frame[i, 3:]
         rodrigues_rotation = quat_to_rodrigues(joint_orientation)
@@ -122,6 +120,22 @@ def quat_to_rodrigues(quaternion):
     result = (angle, axis)
     return result
 
+def normalize_xyz(data):
+    # Check if data has 3 elements
+    if len(data) != 3:
+        raise ValueError("Expected an array with 3 elements.")
+    
+    # Compute min and max values
+    min_val = min(data)
+    max_val = max(data)
+    
+    # Apply min-max normalization
+    normalized_data = [(x - min_val) / (max_val - min_val) for x in data]
+    
+    return normalized_data
+
+
+
 # Wrapper class for the Kinect dataset (operates on processed_data.txt)
 class KinectDataset(Dataset):
     def __init__(self, file_path):
@@ -136,14 +150,15 @@ class KinectDataset(Dataset):
 
     def __getitem__(self, index):
         # Input consists of frames from index to index + 4
-        sample = self.data[index:index + num_frames]
+        sample = self.data[index:index + 5]
+
         # Target consists of frames from index + 5 to index + 9
         target = self.data[index + num_frames:index + num_frames * 2]
 
         # Convert the sample and target to PyTorch tensors
         sample = torch.tensor(sample, dtype=torch.float32)
         target = torch.tensor(target, dtype=torch.float32)
-
+        
         return sample, target
 
     

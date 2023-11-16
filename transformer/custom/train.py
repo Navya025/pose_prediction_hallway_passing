@@ -21,9 +21,19 @@ num_heads = 8
 #TensorBoard writer
 writer = SummaryWriter()
 
+# file_names = ['data/processed_train1.txt', 'data/processed_train2.txt', 'data/processed_train3.txt', 'data/processed_train4.txt', 'data/processed_train5.txt']
+file_names = ['data/processed_train1.txt']
+
+all_runs = []
+
+for file_name in file_names:
+    train_dataset = KinectDataset(file_name)
+    train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+    all_runs.append(train_dataloader)
+
 # Load training and validation data
-train_dataset = KinectDataset("data/processed_train.txt")
-train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+# train_dataset = KinectDataset("data/processed_train.txt")
+# train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 
 val_dataset = KinectDataset("data/processed_val.txt")
 val_dataloader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
@@ -39,29 +49,31 @@ scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', factor=
 
 
 best_accuracy = 0.0  # To keep track of the best validation accuracy
+file = open("output/temp_output.txt", "w")
 
 for epoch in range(EPOCHS):
     model.train()
     running_loss = 0.0 
-    
-    # Training loop
-    for batch_idx, (data, target) in enumerate(train_dataloader):
-        data, target = data.to(device), target.to(device)
-        outputs = model(data)
-        loss = criterion(outputs, target)
-        
-        optimizer.zero_grad()
-        loss.backward()
-        
-        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1)  # Gradient clipping
-        optimizer.step()
-        
-        running_loss += loss.item()
-        
-        # Log training loss to TensorBoard
-        writer.add_scalar('Loss/train', running_loss / len(train_dataloader), epoch)
 
-    print(f"Epoch [{epoch + 1}/{EPOCHS}], Training Loss: {running_loss / len(train_dataloader)}")
+    for run in all_runs:
+        # Training loop
+        for batch_idx, (data, target) in enumerate(run):
+            data, target = data.to(device), target.to(device)
+            outputs = model(data)
+            loss = criterion(outputs, target)
+            
+            optimizer.zero_grad()
+            loss.backward()
+            
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1)  # Gradient clipping
+            optimizer.step()
+            
+            running_loss += loss.item()
+            
+            # Log training loss to TensorBoard
+            writer.add_scalar('Loss/train', running_loss / len(train_dataloader), epoch)
+
+    print(f"Epoch [{epoch + 1}/{EPOCHS}], Training Loss: {running_loss / (len(train_dataloader) * len(all_runs))}")
 
    # Validation loop
     model.eval()
@@ -69,10 +81,17 @@ for epoch in range(EPOCHS):
     correct = 0
     total = 0
     accuracy = 0.0
+
     with torch.no_grad():
         for data, target in val_dataloader:
             data, target = data.to(device), target.to(device)
             outputs = model(data)
+
+            for output in outputs:
+                file.write(f"{output}\n\n")
+            
+            file.write("one output\n\n")
+
             loss = criterion(outputs, target)
             val_loss += loss.item()
 
