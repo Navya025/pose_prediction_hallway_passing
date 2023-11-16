@@ -88,7 +88,7 @@ void myInit(void)
     glClearColor(1.0, 1.0, 1.0, 0.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(0.0, maxWD, 0.0, maxHT);
+    gluOrtho2D(50.0, 150.0, 50.0, 150.0);
     glClear(GL_COLOR_BUFFER_BIT);
     glFlush();
 }
