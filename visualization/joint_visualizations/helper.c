@@ -7,7 +7,7 @@ typedef struct {
 
 int main() {
     // get file
-    FILE *file = fopen("helper.txt", "r");
+    FILE *file = fopen("left-predict.txt", "r");
 
     char line[4096];
     Point previous = {0.0f, 0.0f}; 

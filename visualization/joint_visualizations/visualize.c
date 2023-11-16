@@ -33,10 +33,10 @@ void delay(unsigned int mseconds)
 
 
 void generateArray() {
-     FILE *file = fopen("helper.txt", "r");
+    FILE *file = fopen("left-predict.txt", "r");
 
     char line[4096];
-    Point previous = {0.0f, 0.0f}; 
+    Point previous = {0.000f, 0.000f}; 
 
     // array of points
     size_t count = 0;
