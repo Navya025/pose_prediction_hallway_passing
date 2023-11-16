@@ -33,7 +33,7 @@ void delay(unsigned int mseconds)
 
 
 void generateArray() {
-    FILE *file = fopen("left-predict.txt", "r");
+    FILE *file = fopen("1000-straight.txt", "r");
 
     char line[4096];
     Point previous = {0.0f, 0.0f}; 
@@ -96,7 +96,7 @@ void myInit(void)
 void drawPoint()
 {
     glPointSize(7.0);
-    glColor3f(1.0f, 0.0f, 1.0f);
+    glColor3f(0.0f, 0.0f, 1.0f);
     glBegin(GL_POINTS);
     glVertex2i(px, py);
     glEnd();
