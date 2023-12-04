@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/joint_detection.dir/main.cpp.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/detection/joint_detection/main.cpp",
+  "file": "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/detection/joint_detection/main.cpp",
+  "output": "CMakeFiles/joint_detection.dir/main.cpp.o"
+}
+]
