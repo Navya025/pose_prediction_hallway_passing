@@ -15,6 +15,7 @@ final_string = ""
 # Processes the entire file of raw data and writes it to a new file.
 def process_data(filename):
     global GLOBAL_MIN, GLOBAL_MAX, final_string
+    print(f"Processing {filename}...")
     # read from the filename file in /data directory
     with open(filename, "r") as f:
         data = f.read()
@@ -125,12 +126,21 @@ class KinectDataset(Dataset):
 
             # Convert lines to raw data
             self.raw_data = []
+            count = 0
+            
             for line in lines:
-                if "NULL" in line:  # NULL separator line
-                    self.raw_data.append(separator)
-                else:
-                    self.raw_data.append(list(map(float, line.strip()[1:-1].split(","))))
-
+                try:
+                    if "NULL" in line:  # NULL separator line
+                        self.raw_data.append(separator)
+                    else:
+                        # Assuming the data format is a list of numbers enclosed in brackets
+                        self.raw_data.append(list(map(float, line.strip()[1:-1].split(","))))
+                except Exception as e:
+                    print(f"Error processing line {count}: {line}")
+                    print(f"Error message: {e}")
+                finally:
+                    count += 1
+                    
             # Split data into segments based on the separator
             self.segments = []
             start_idx = 0
@@ -181,18 +191,15 @@ class KinectDataset(Dataset):
 
 def process_all_files(directory_path, output_file):
     global final_string
-    files = [
-        os.path.join(directory_path, f)
-        for f in os.listdir(directory_path)
-        if os.path.isfile(os.path.join(directory_path, f))
-    ]
-
-    for filename in files:
-        process_data(filename)
-        # Add separator after processing each file
-        final_string += (
-            filename + "\n" + "NULL" + "\n"
-        )
+    for root, dirs, files in os.walk(directory_path):
+        for file in files:
+            if file.endswith(".txt"):
+                full_path = os.path.join(root, file)
+                process_data(full_path)
+                # Add separator after processing each file
+                final_string += (
+                    "NULL" + "\n" + full_path + "\n"
+                )
 
     with open(output_file, "w") as f:
         f.write(
@@ -212,9 +219,9 @@ def process_all_files(directory_path, output_file):
 
 if __name__ == "__main__":
     # Directory containing all raw data files
-    raw_data_directory = "../data/midterm-test/"
+    raw_data_directory = "../../../final_outputs"
 
     # Process all files in the directory
-    process_all_files(raw_data_directory, "processed_test.txt")
+    process_all_files(raw_data_directory, "processed_train_final.txt")
 
-    print(f"Data processing complete. Processed data saved to 'processed_train2.txt'.")
+    print(f"Data processing complete. Processed data saved to 'processed_train_final.txt'.")

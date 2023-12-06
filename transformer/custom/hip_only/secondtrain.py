@@ -11,14 +11,14 @@ from torch.utils.tensorboard import SummaryWriter
 
 # Hyperparameters
 BATCH_SIZE = 64
-EPOCHS = 0
+EPOCHS = 1000
 LEARNING_RATE = 0.001
 num_frames = 5
 
 # files to read from
-train_file = "../data/processed_train2.txt"
-val_file = "../data/processed_val2.txt"
-test_file = "../data/test.txt"
+train_file = "2FINAL_train_data.txt"
+val_file = "2FINAL_val_data.txt"
+test_file = "2FINAL_test_data.txt"
 
 
 def getGlobalMaxima(file):
@@ -163,13 +163,13 @@ for epoch in range(EPOCHS):
     # Save the best model
     if total_avg_distance < lowest_avg_distance:
         lowest_avg_distance = total_avg_distance
-        torch.save(model.state_dict(), "lowest_avg.pth")
+        torch.save(model.state_dict(), "FINAL_lowest_avg.pth")
         print("Best model saved with MAE:", lowest_avg_distance)
 
 print("Training finished!")
 
 # Testing loop
-model.load_state_dict(torch.load("lowest_avg.pth"))
+model.load_state_dict(torch.load("FINAL_lowest_avg.pth"))
 model.eval()
 test_loss = 0.0
 total_avg_distance = 0.0
