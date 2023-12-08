@@ -2,7 +2,7 @@
 
 import numpy as np
 import os
-from scipy.spatial.transform import Rotation
+#from scipy.spatial.transform import Rotation
 import torch
 from torch.utils.data import Dataset, DataLoader
 
