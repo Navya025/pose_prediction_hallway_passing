@@ -25,4 +25,10 @@ This will create an output file which you can run by running: ./visualize
 To run the helper.c code it is the same command but change visualize to helper.c
 
 
-
+### Run chessboard corners
+cd homography_trial
+cd kinect_wrapper
+cmake .
+cd homography
+make
+./homographyTest
