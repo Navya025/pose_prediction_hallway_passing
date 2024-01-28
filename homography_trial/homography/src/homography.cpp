@@ -79,7 +79,19 @@ VectorXd generalSolution(const MatrixXd& A, const VectorXd& b) {
     // The solution x of minimum norm ||x|| is Vy
     Eigen::VectorXd x_min_norm = Vt.transpose() * y;
 
-    return x_min_norm;
+    // λr+1,..., λn terms
+    Eigen::VectorXd lambda = svd.singularValues().tail(A.cols() - rank);
+
+    // Additional columns of V beyond rank
+    Eigen::MatrixXd V_tail = Vt.transpose().rightCols(A.cols() - rank);
+
+    // General solution: x = Vy + λr+1vr+1 + ... + λnvn
+    Eigen::VectorXd general_solution = x_min_norm;
+    for (int k = 0; k < lambda.size(); ++k) {
+        general_solution += lambda(k) * V_tail.col(k);
+    }
+
+    return general_solution;
 }
 
 
