@@ -27,6 +27,62 @@ std::vector<cv::Point2f> generateModelPoints(int numCornersX, int numCornersY, f
     return modelPoints;
 }
 
+// A5.1:
+
+// Function to find the least-squares solution for the over-determined system
+VectorXd leastSquaresSolution(Eigen::MatrixXd A, Eigen::VectorXd b) {
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(A, Eigen::ComputeThinU | Eigen::ComputeThinV);
+
+    Eigen::MatrixXd U = svd.matrixU();
+    Eigen::MatrixXd D = svd.singularValues().asDiagonal();
+    Eigen::MatrixXd Vt = svd.matrixV().transpose();
+
+    // Find SVD A = U * D * V^T
+    Eigen::MatrixXd reconstructedA = U * D * Vt;
+
+    // Set b' = U^T * b
+    Eigen::VectorXd b_prime = U.transpose() * b;
+    
+    // Find the vector y: yi = b'i/di
+    Eigen::VectorXd y(D.rows());
+    for (int i = 0; i < D.rows(); ++i) {
+        y(i) = b_prime(i) / D(i, i);
+    }
+
+    // Computing the solution x = Vy
+    Eigen::VectorXd x = Vt.transpose() * y;
+
+    return x;
+}
+
+// Function to find the general solution for a set of equations with unknown rank
+VectorXd generalSolution(const MatrixXd& A, const VectorXd& b) {
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(A, Eigen::ComputeThinU | Eigen::ComputeThinV);
+
+    Eigen::MatrixXd U = svd.matrixU();
+    Eigen::MatrixXd D = svd.singularValues().asDiagonal();
+    Eigen::MatrixXd Vt = svd.matrixV().transpose();
+
+    // Find SVD A = U * D * V^T
+    Eigen::MatrixXd reconstructedA = U * D * Vt;
+
+    // Set b' = U^T * b
+    Eigen::VectorXd b_prime = U.transpose() * b;
+
+    // Find the vector y: yi = b'i/di for i = 1,...,r, and yi = 0 otherwise
+    int rank = svd.rank();
+    Eigen::VectorXd y(rank);
+    for (int i = 0; i < rank; ++i) {
+        y(i) = (D(i, i) != 0.0) ? b_prime(i) / D(i, i) : 0.0;
+    }
+
+    // The solution x of minimum norm ||x|| is Vy
+    Eigen::VectorXd x_min_norm = Vt.transpose() * y;
+
+    return x_min_norm;
+}
+
+
 //chatGPT created this, we need to check it against the textbooks
 // Helper function to convert cv::Point2f to Eigen::Vector3d
 Eigen::Vector3d toHomogeneous(const cv::Point2f& pt) {
