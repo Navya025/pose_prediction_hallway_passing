@@ -122,8 +122,9 @@ cv::Mat computeHomography(const std::vector<cv::Point2f>& srcPoints, const std::
         b(2 * i + 1) = p2(1);
     }
 
-    // Solve using least squares
-    Eigen::VectorXd h = A.jacobiSvd(Eigen::ComputeFullU | Eigen::ComputeFullV).solve(b);
+    // Solve for x in Ax = b using least squares
+    // Eigen::VectorXd h = A.jacobiSvd(Eigen::ComputeFullU | Eigen::ComputeFullV).solve(b);
+    VectorXd x = leastSquaresSolution(A, b);
 
     // Reshape h to a 3x3 matrix
     cv::Mat homography(3, 3, CV_64F);
@@ -178,7 +179,7 @@ void printHomography(cv::Mat Homography) {
 
 //compare our computeHomography method to the one CV has
 void compareHomography(std::vector<cv::Point2f> modelCorners, std::vector<cv::Point2f> corners) {
-            cv::Mat cvH = cv::findHomography(modelCorners, corners, 0);
+        cv::Mat cvH = cv::findHomography(modelCorners, corners, 0);
         std::cout << "CV Homography Matrix:" << std::endl;
         for (int i = 0; i < cvH.rows; i++) {
             for (int j = 0; j < cvH.cols; j++) {
