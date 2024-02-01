@@ -36,21 +36,19 @@ std::vector<cv::Point2f> generateModelPoints(int numCornersX, int numCornersY) {
 }
 
 //srcPoints = modelChessboard, dstPoints = return value of findChessboardCorners
-Eigen::MatrixXf constructMatrixA(const std::vector<cv::Point2f>& srcPoints, const std::vector<cv::Point2f>& dstPoints, int numRows, int numCols) {
-    if (srcPoints.size() != dstPoints.size()) {
-        return null;
-    }
+Eigen::MatrixXf constructMatrixA(const std::vector<cv::Point2f>& srcPoints, const std::vector<cv::Point2f>& dstPoints) {
+
     Eigen::MatrixXf A;
-    A.resize(numRows, numCols);
+    A.resize(srcPoints.size() * 2, 9);
 
     for (int i = 0; i < srcPoints.size(); i++) {
-        Eigen::VectorXf row1 = vec(9);
-        Eigen::VectorXf row2 = vec(9);
+        Eigen::VectorXf row1(9);
+        Eigen::VectorXf row2(9);
 
-        Point2f x1 = srcPoints[i].x;
-        Point2f y1 = srcPoints[i].y;
-        Point2f x2 = dstPoints[i].x;
-        Point2f y2 = dstPoints[i].y;
+        float x1 = srcPoints[i].x;
+        float y1 = srcPoints[i].y;
+        float x2 = dstPoints[i].x;
+        float y2 = dstPoints[i].y;
 
         row1 << x1, y1, 1, 0, 0, 0, -1 * x1 * x2, -1 * y1 * x2, -1 * x2; //constructing rows like in notes
         row2 << 0, 0, 0, x1, y1, 1, -1 * y2 * x1, -1 * y2 * y1, -1 * y2;
@@ -114,6 +112,7 @@ void *captureThread(void *data) {
 
         // cv::imshow("Image", grayImg);
         // cv::waitKey(1);
+        cv::Size numCorners(8, 6);
         std::vector<cv::Point2f> corners = findCorners(grayImg, cvImg, numCorners);
         int numCornersX = 8; //num rows - 1
         int numCornersY = 6; //num cols - 1
@@ -131,7 +130,7 @@ void *captureThread(void *data) {
         }
 
         //compare our computeHomography method to the one CV has
-        cv::Mat cvH = cv::findHomography(modelCorners, corners, 0);
+        cv::Mat cvH = cv::findHomography(modelPoints, corners, 0);
         std::cout << "CV Homography Matrix:" << std::endl;
         for (int i = 0; i < cvH.rows; i++) {
             for (int j = 0; j < cvH.cols; j++) {
