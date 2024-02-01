@@ -58,7 +58,11 @@
         "typeinfo": "cpp",
         "bit": "cpp",
         "__split_buffer": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "typeindex": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp",
+        "unordered_set": "cpp"
     },
     "cmake.sourceDirectory": "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/detection/joint_detection"
 }

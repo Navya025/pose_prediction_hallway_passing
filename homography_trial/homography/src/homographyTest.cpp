@@ -3,8 +3,11 @@
 #include <opencv2/opencv.hpp>
 #include <unistd.h>
 #include <k4a/k4a.hpp>
+#include <Eigen/Dense>
+#include <vector>
+#include <opencv2/opencv.hpp>
 
-bool keepRunning = true;
+
 
 std::vector<cv::Point2f> findCorners(cv::Mat grayImg, cv::Mat colorImg, cv::Size numCorners) {
 std::vector<cv::Point2f> corners;
@@ -19,58 +22,77 @@ if (found) {
 return corners;
 }
 
-std::vector<cv::Point2f> generateModelPoints(int numCornersX, int numCornersY, float squareSize) {
+//Generates a model chessboard of dimension numInternalRows by numInternalCols
+//We assume the chessboard in picture is oriented normally so we generate
+//points starting from the top left to the bottom right
+std::vector<cv::Point2f> generateModelPoints(int numCornersX, int numCornersY) {
     std::vector<cv::Point2f> modelPoints;
-    for (int i = 0; i < numCornersY; ++i) {
-        for (int j = 0; j < numCornersX; ++j) {
-            modelPoints.emplace_back(j * squareSize, i * squareSize);
+    for (int i = 0; i < numCornersX; ++i) {
+        for (int j = 0; j < numCornersY; ++j) {
+            modelPoints.emplace_back(i, j); //Append to end of the vector (add)
         }
     }
     return modelPoints;
 }
 
-//chatGPT created this, we need to check it against the textbooks
-#include <Eigen/Dense>
-#include <vector>
-#include <opencv2/opencv.hpp>
+//srcPoints = modelChessboard, dstPoints = return value of findChessboardCorners
+Eigen::MatrixXf constructMatrixA(const std::vector<cv::Point2f>& srcPoints, const std::vector<cv::Point2f>& dstPoints, int numRows, int numCols) {
+    if (srcPoints.size() != dstPoints.size()) {
+        return null;
+    }
+    Eigen::MatrixXf A;
+    A.resize(numRows, numCols);
 
-// Helper function to convert cv::Point2f to Eigen::Vector3d
-Eigen::Vector3d toHomogeneous(const cv::Point2f& pt) {
-    return Eigen::Vector3d(pt.x, pt.y, 1.0);
+    for (int i = 0; i < srcPoints.size(); i++) {
+        Eigen::VectorXf row1 = vec(9);
+        Eigen::VectorXf row2 = vec(9);
+
+        Point2f x1 = srcPoints[i].x;
+        Point2f y1 = srcPoints[i].y;
+        Point2f x2 = dstPoints[i].x;
+        Point2f y2 = dstPoints[i].y;
+
+        row1 << x1, y1, 1, 0, 0, 0, -1 * x1 * x2, -1 * y1 * x2, -1 * x2; //constructing rows like in notes
+        row2 << 0, 0, 0, x1, y1, 1, -1 * y2 * x1, -1 * y2 * y1, -1 * y2;
+        A.row(i * 2) = row1;
+        A.row(i * 2 + 1) = row2;  
+    }
+
+    return A;
+
 }
 
 cv::Mat computeHomography(const std::vector<cv::Point2f>& srcPoints, const std::vector<cv::Point2f>& dstPoints) {
-    if (srcPoints.size() != dstPoints.size() || srcPoints.size() < 4) {
+    if (srcPoints.size() != dstPoints.size() || srcPoints.size() < 4) { //need at least 4 point correspondences to calculate H
         throw std::runtime_error("Insufficient or unequal number of points.");
     }
+    Eigen::MatrixXf A = constructMatrixA(srcPoints, dstPoints); //passing by reference/avoid copying vals
 
-    size_t numPoints = srcPoints.size();
-    Eigen::MatrixXd A(2 * numPoints, 9);
-    Eigen::VectorXd b(2 * numPoints);
+    //we need to solve Ah = 0, where h is the flattened homography matrix
+    //We can do this by applying SVD and taking the eigenvector h, a column of V, which corresponds to smallest singular value of A
 
-    for (size_t i = 0; i < numPoints; ++i) {
-        Eigen::Vector3d p1 = toHomogeneous(srcPoints[i]);
-        Eigen::Vector3d p2 = toHomogeneous(dstPoints[i]);
+    Eigen::JacobiSVD<Eigen::MatrixXf> svd(A, Eigen::ComputeFullV); //ensure Eigen has the entire V matrix available
+    
+    Eigen::VectorXf singularValues = svd.singularValues();
 
-        A.row(2 * i)     << -p1(0), -p1(1), -1, 0, 0, 0, p2(0) * p1(0), p2(0) * p1(1), p2(0);
-        A.row(2 * i + 1) << 0, 0, 0, -p1(0), -p1(1), -1, p2(1) * p1(0), p2(1) * p1(1), p2(1);
-       
-        // Right-hand side
-        b(2 * i) = p2(0);
-        b(2 * i + 1) = p2(1);
+    //Assuming that the smallest singular val will be at the last index
+    float smallestSingularVal = singularValues[singularValues.size() - 1];
+
+    //Matrix V from SVD
+    Eigen::MatrixXf V = svd.matrixV();
+
+    //our solution vector h is the last column of V (corresponding to the smallest singular value)
+    Eigen::VectorXf h = V.col(V.cols() - 1);
+    
+    //convert to cv::Mat (just for purposes of consistency)
+    cv::Mat homography(3, 3, CV_32F);
+
+    //copy data
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            homography.at<float>(i, j) = h[i * 3 + j];
+        }
     }
-
-    // Solve using least squares
-    Eigen::VectorXd h = A.jacobiSvd(Eigen::ComputeFullU | Eigen::ComputeFullV).solve(b);
-
-    // Reshape h to a 3x3 matrix
-    cv::Mat homography(3, 3, CV_64F);
-    for (int i = 0; i < 9; ++i) {
-        homography.at<double>(i / 3, i % 3) = h(i);
-    }
-
-    // Ensure the homography is normalized such that h(8) is 1
-    homography /= homography.at<double>(2, 2);
 
     return homography;
 }
@@ -92,13 +114,12 @@ void *captureThread(void *data) {
 
         // cv::imshow("Image", grayImg);
         // cv::waitKey(1);
-        cv::Size numCorners(8, 6);
         std::vector<cv::Point2f> corners = findCorners(grayImg, cvImg, numCorners);
         int numCornersX = 8; //num rows - 1
         int numCornersY = 6; //num cols - 1
         float squareSize = 10; //in centimeters
-        std::vector<cv::Point2f> modelCorners = generateModelPoints(numCornersX, numCornersY, squareSize);
-        cv::Mat H = computeHomography(modelCorners, corners);
+        std::vector<cv::Point2f> modelPoints = generateModelPoints(numCornersX, numCornersY);
+        cv::Mat H = computeHomography(modelPoints, corners);
 
         //print homography matrix
         std::cout << "Homography Matrix:" << std::endl;
