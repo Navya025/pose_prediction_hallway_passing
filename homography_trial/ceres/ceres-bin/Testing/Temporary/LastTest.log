@@ -1,0 +1,2803 @@
+Start testing: Feb 05 18:06 CST
+----------------------------------------------------------
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/array_utils_test
+1/175 Testing: array_utils_test
+1/175 Test: array_utils_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"array_utils_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"array_utils_test" end time: Feb 05 18:06 CST
+"array_utils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/array_selector_test
+2/175 Testing: array_selector_test
+2/175 Test: array_selector_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"array_selector_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"array_selector_test" end time: Feb 05 18:06 CST
+"array_selector_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/autodiff_test
+3/175 Testing: autodiff_test
+3/175 Test: autodiff_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"autodiff_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"autodiff_test" end time: Feb 05 18:06 CST
+"autodiff_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/autodiff_first_order_function_test
+4/175 Testing: autodiff_first_order_function_test
+4/175 Test: autodiff_first_order_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"autodiff_first_order_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"autodiff_first_order_function_test" end time: Feb 05 18:06 CST
+"autodiff_first_order_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/autodiff_cost_function_test
+5/175 Testing: autodiff_cost_function_test
+5/175 Test: autodiff_cost_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"autodiff_cost_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"autodiff_cost_function_test" end time: Feb 05 18:06 CST
+"autodiff_cost_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/autodiff_manifold_test
+6/175 Testing: autodiff_manifold_test
+6/175 Test: autodiff_manifold_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"autodiff_manifold_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"autodiff_manifold_test" end time: Feb 05 18:06 CST
+"autodiff_manifold_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/block_jacobi_preconditioner_test
+7/175 Testing: block_jacobi_preconditioner_test
+7/175 Test: block_jacobi_preconditioner_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"block_jacobi_preconditioner_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"block_jacobi_preconditioner_test" end time: Feb 05 18:06 CST
+"block_jacobi_preconditioner_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/block_random_access_dense_matrix_test
+8/175 Testing: block_random_access_dense_matrix_test
+8/175 Test: block_random_access_dense_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"block_random_access_dense_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"block_random_access_dense_matrix_test" end time: Feb 05 18:06 CST
+"block_random_access_dense_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/block_random_access_diagonal_matrix_test
+9/175 Testing: block_random_access_diagonal_matrix_test
+9/175 Test: block_random_access_diagonal_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"block_random_access_diagonal_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"block_random_access_diagonal_matrix_test" end time: Feb 05 18:06 CST
+"block_random_access_diagonal_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/block_random_access_sparse_matrix_test
+10/175 Testing: block_random_access_sparse_matrix_test
+10/175 Test: block_random_access_sparse_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"block_random_access_sparse_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"block_random_access_sparse_matrix_test" end time: Feb 05 18:06 CST
+"block_random_access_sparse_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/block_sparse_matrix_test
+11/175 Testing: block_sparse_matrix_test
+11/175 Test: block_sparse_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"block_sparse_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"block_sparse_matrix_test" end time: Feb 05 18:06 CST
+"block_sparse_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/c_api_test
+12/175 Testing: c_api_test
+12/175 Test: c_api_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"c_api_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"c_api_test" end time: Feb 05 18:06 CST
+"c_api_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/canonical_views_clustering_test
+13/175 Testing: canonical_views_clustering_test
+13/175 Test: canonical_views_clustering_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"canonical_views_clustering_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"canonical_views_clustering_test" end time: Feb 05 18:06 CST
+"canonical_views_clustering_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/compressed_col_sparse_matrix_utils_test
+14/175 Testing: compressed_col_sparse_matrix_utils_test
+14/175 Test: compressed_col_sparse_matrix_utils_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"compressed_col_sparse_matrix_utils_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"compressed_col_sparse_matrix_utils_test" end time: Feb 05 18:06 CST
+"compressed_col_sparse_matrix_utils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/compressed_row_sparse_matrix_test
+15/175 Testing: compressed_row_sparse_matrix_test
+15/175 Test: compressed_row_sparse_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"compressed_row_sparse_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"compressed_row_sparse_matrix_test" end time: Feb 05 18:06 CST
+"compressed_row_sparse_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/concurrent_queue_test
+16/175 Testing: concurrent_queue_test
+16/175 Test: concurrent_queue_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"concurrent_queue_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"concurrent_queue_test" end time: Feb 05 18:06 CST
+"concurrent_queue_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/conditioned_cost_function_test
+17/175 Testing: conditioned_cost_function_test
+17/175 Test: conditioned_cost_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"conditioned_cost_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"conditioned_cost_function_test" end time: Feb 05 18:06 CST
+"conditioned_cost_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/conjugate_gradients_solver_test
+18/175 Testing: conjugate_gradients_solver_test
+18/175 Test: conjugate_gradients_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"conjugate_gradients_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"conjugate_gradients_solver_test" end time: Feb 05 18:06 CST
+"conjugate_gradients_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/corrector_test
+19/175 Testing: corrector_test
+19/175 Test: corrector_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"corrector_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"corrector_test" end time: Feb 05 18:06 CST
+"corrector_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cost_function_to_functor_test
+20/175 Testing: cost_function_to_functor_test
+20/175 Test: cost_function_to_functor_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cost_function_to_functor_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cost_function_to_functor_test" end time: Feb 05 18:06 CST
+"cost_function_to_functor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/covariance_test
+21/175 Testing: covariance_test
+21/175 Test: covariance_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"covariance_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"covariance_test" end time: Feb 05 18:06 CST
+"covariance_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cubic_interpolation_test
+22/175 Testing: cubic_interpolation_test
+22/175 Test: cubic_interpolation_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cubic_interpolation_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cubic_interpolation_test" end time: Feb 05 18:06 CST
+"cubic_interpolation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_partitioned_block_sparse_crs_view_test
+23/175 Testing: cuda_partitioned_block_sparse_crs_view_test
+23/175 Test: cuda_partitioned_block_sparse_crs_view_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_partitioned_block_sparse_crs_view_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_partitioned_block_sparse_crs_view_test" end time: Feb 05 18:06 CST
+"cuda_partitioned_block_sparse_crs_view_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_block_sparse_crs_view_test
+24/175 Testing: cuda_block_sparse_crs_view_test
+24/175 Test: cuda_block_sparse_crs_view_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_block_sparse_crs_view_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_block_sparse_crs_view_test" end time: Feb 05 18:06 CST
+"cuda_block_sparse_crs_view_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_block_structure_test
+25/175 Testing: cuda_block_structure_test
+25/175 Test: cuda_block_structure_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_block_structure_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_block_structure_test" end time: Feb 05 18:06 CST
+"cuda_block_structure_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_dense_cholesky_test
+26/175 Testing: cuda_dense_cholesky_test
+26/175 Test: cuda_dense_cholesky_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_dense_cholesky_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_dense_cholesky_test" end time: Feb 05 18:06 CST
+"cuda_dense_cholesky_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_dense_qr_test
+27/175 Testing: cuda_dense_qr_test
+27/175 Test: cuda_dense_qr_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_dense_qr_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_dense_qr_test" end time: Feb 05 18:06 CST
+"cuda_dense_qr_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_kernels_vector_ops_test
+28/175 Testing: cuda_kernels_vector_ops_test
+28/175 Test: cuda_kernels_vector_ops_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_kernels_vector_ops_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_kernels_vector_ops_test" end time: Feb 05 18:06 CST
+"cuda_kernels_vector_ops_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_sparse_matrix_test
+29/175 Testing: cuda_sparse_matrix_test
+29/175 Test: cuda_sparse_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_sparse_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_sparse_matrix_test" end time: Feb 05 18:06 CST
+"cuda_sparse_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_streamed_buffer_test
+30/175 Testing: cuda_streamed_buffer_test
+30/175 Test: cuda_streamed_buffer_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_streamed_buffer_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_streamed_buffer_test" end time: Feb 05 18:06 CST
+"cuda_streamed_buffer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/cuda_vector_test
+31/175 Testing: cuda_vector_test
+31/175 Test: cuda_vector_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"cuda_vector_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_vector_test" end time: Feb 05 18:06 CST
+"cuda_vector_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dense_linear_solver_test
+32/175 Testing: dense_linear_solver_test
+32/175 Test: dense_linear_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dense_linear_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dense_linear_solver_test" end time: Feb 05 18:06 CST
+"dense_linear_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dense_cholesky_test
+33/175 Testing: dense_cholesky_test
+33/175 Test: dense_cholesky_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dense_cholesky_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dense_cholesky_test" end time: Feb 05 18:06 CST
+"dense_cholesky_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dense_qr_test
+34/175 Testing: dense_qr_test
+34/175 Test: dense_qr_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dense_qr_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dense_qr_test" end time: Feb 05 18:06 CST
+"dense_qr_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dense_sparse_matrix_test
+35/175 Testing: dense_sparse_matrix_test
+35/175 Test: dense_sparse_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dense_sparse_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dense_sparse_matrix_test" end time: Feb 05 18:06 CST
+"dense_sparse_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/detect_structure_test
+36/175 Testing: detect_structure_test
+36/175 Test: detect_structure_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"detect_structure_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"detect_structure_test" end time: Feb 05 18:06 CST
+"detect_structure_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dogleg_strategy_test
+37/175 Testing: dogleg_strategy_test
+37/175 Test: dogleg_strategy_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dogleg_strategy_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dogleg_strategy_test" end time: Feb 05 18:06 CST
+"dogleg_strategy_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dynamic_autodiff_cost_function_test
+38/175 Testing: dynamic_autodiff_cost_function_test
+38/175 Test: dynamic_autodiff_cost_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dynamic_autodiff_cost_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dynamic_autodiff_cost_function_test" end time: Feb 05 18:06 CST
+"dynamic_autodiff_cost_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dynamic_compressed_row_sparse_matrix_test
+39/175 Testing: dynamic_compressed_row_sparse_matrix_test
+39/175 Test: dynamic_compressed_row_sparse_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dynamic_compressed_row_sparse_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dynamic_compressed_row_sparse_matrix_test" end time: Feb 05 18:06 CST
+"dynamic_compressed_row_sparse_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dynamic_numeric_diff_cost_function_test
+40/175 Testing: dynamic_numeric_diff_cost_function_test
+40/175 Test: dynamic_numeric_diff_cost_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dynamic_numeric_diff_cost_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dynamic_numeric_diff_cost_function_test" end time: Feb 05 18:06 CST
+"dynamic_numeric_diff_cost_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dynamic_sparse_normal_cholesky_solver_test
+41/175 Testing: dynamic_sparse_normal_cholesky_solver_test
+41/175 Test: dynamic_sparse_normal_cholesky_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dynamic_sparse_normal_cholesky_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dynamic_sparse_normal_cholesky_solver_test" end time: Feb 05 18:06 CST
+"dynamic_sparse_normal_cholesky_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/dynamic_sparsity_test
+42/175 Testing: dynamic_sparsity_test
+42/175 Test: dynamic_sparsity_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"dynamic_sparsity_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"dynamic_sparsity_test" end time: Feb 05 18:06 CST
+"dynamic_sparsity_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/evaluation_callback_test
+43/175 Testing: evaluation_callback_test
+43/175 Test: evaluation_callback_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"evaluation_callback_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"evaluation_callback_test" end time: Feb 05 18:06 CST
+"evaluation_callback_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/evaluator_test
+44/175 Testing: evaluator_test
+44/175 Test: evaluator_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"evaluator_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"evaluator_test" end time: Feb 05 18:06 CST
+"evaluator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/fixed_array_test
+45/175 Testing: fixed_array_test
+45/175 Test: fixed_array_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"fixed_array_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"fixed_array_test" end time: Feb 05 18:06 CST
+"fixed_array_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/gradient_checker_test
+46/175 Testing: gradient_checker_test
+46/175 Test: gradient_checker_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"gradient_checker_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gradient_checker_test" end time: Feb 05 18:06 CST
+"gradient_checker_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/gradient_checking_cost_function_test
+47/175 Testing: gradient_checking_cost_function_test
+47/175 Test: gradient_checking_cost_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"gradient_checking_cost_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gradient_checking_cost_function_test" end time: Feb 05 18:06 CST
+"gradient_checking_cost_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/gradient_problem_test
+48/175 Testing: gradient_problem_test
+48/175 Test: gradient_problem_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"gradient_problem_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gradient_problem_test" end time: Feb 05 18:06 CST
+"gradient_problem_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/gradient_problem_solver_test
+49/175 Testing: gradient_problem_solver_test
+49/175 Test: gradient_problem_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"gradient_problem_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gradient_problem_solver_test" end time: Feb 05 18:06 CST
+"gradient_problem_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/graph_test
+50/175 Testing: graph_test
+50/175 Test: graph_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"graph_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"graph_test" end time: Feb 05 18:06 CST
+"graph_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/graph_algorithms_test
+51/175 Testing: graph_algorithms_test
+51/175 Test: graph_algorithms_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"graph_algorithms_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"graph_algorithms_test" end time: Feb 05 18:06 CST
+"graph_algorithms_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/householder_vector_test
+52/175 Testing: householder_vector_test
+52/175 Test: householder_vector_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"householder_vector_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"householder_vector_test" end time: Feb 05 18:06 CST
+"householder_vector_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/implicit_schur_complement_test
+53/175 Testing: implicit_schur_complement_test
+53/175 Test: implicit_schur_complement_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"implicit_schur_complement_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"implicit_schur_complement_test" end time: Feb 05 18:06 CST
+"implicit_schur_complement_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/inner_product_computer_test
+54/175 Testing: inner_product_computer_test
+54/175 Test: inner_product_computer_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"inner_product_computer_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"inner_product_computer_test" end time: Feb 05 18:06 CST
+"inner_product_computer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/invert_psd_matrix_test
+55/175 Testing: invert_psd_matrix_test
+55/175 Test: invert_psd_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"invert_psd_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"invert_psd_matrix_test" end time: Feb 05 18:06 CST
+"invert_psd_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/integer_sequence_algorithm_test
+56/175 Testing: integer_sequence_algorithm_test
+56/175 Test: integer_sequence_algorithm_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"integer_sequence_algorithm_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"integer_sequence_algorithm_test" end time: Feb 05 18:06 CST
+"integer_sequence_algorithm_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/is_close_test
+57/175 Testing: is_close_test
+57/175 Test: is_close_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"is_close_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"is_close_test" end time: Feb 05 18:06 CST
+"is_close_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/iterative_refiner_test
+58/175 Testing: iterative_refiner_test
+58/175 Test: iterative_refiner_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"iterative_refiner_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"iterative_refiner_test" end time: Feb 05 18:06 CST
+"iterative_refiner_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/iterative_schur_complement_solver_test
+59/175 Testing: iterative_schur_complement_solver_test
+59/175 Test: iterative_schur_complement_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"iterative_schur_complement_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"iterative_schur_complement_solver_test" end time: Feb 05 18:06 CST
+"iterative_schur_complement_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/jet_test
+60/175 Testing: jet_test
+60/175 Test: jet_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"jet_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"jet_test" end time: Feb 05 18:06 CST
+"jet_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/jet_traits_test
+61/175 Testing: jet_traits_test
+61/175 Test: jet_traits_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"jet_traits_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"jet_traits_test" end time: Feb 05 18:06 CST
+"jet_traits_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/levenberg_marquardt_strategy_test
+62/175 Testing: levenberg_marquardt_strategy_test
+62/175 Test: levenberg_marquardt_strategy_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"levenberg_marquardt_strategy_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"levenberg_marquardt_strategy_test" end time: Feb 05 18:06 CST
+"levenberg_marquardt_strategy_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/line_search_minimizer_test
+63/175 Testing: line_search_minimizer_test
+63/175 Test: line_search_minimizer_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"line_search_minimizer_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"line_search_minimizer_test" end time: Feb 05 18:06 CST
+"line_search_minimizer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/line_search_preprocessor_test
+64/175 Testing: line_search_preprocessor_test
+64/175 Test: line_search_preprocessor_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"line_search_preprocessor_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"line_search_preprocessor_test" end time: Feb 05 18:06 CST
+"line_search_preprocessor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/loss_function_test
+65/175 Testing: loss_function_test
+65/175 Test: loss_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"loss_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"loss_function_test" end time: Feb 05 18:06 CST
+"loss_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/manifold_test
+66/175 Testing: manifold_test
+66/175 Test: manifold_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"manifold_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"manifold_test" end time: Feb 05 18:06 CST
+"manifold_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/minimizer_test
+67/175 Testing: minimizer_test
+67/175 Test: minimizer_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"minimizer_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"minimizer_test" end time: Feb 05 18:06 CST
+"minimizer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/normal_prior_test
+68/175 Testing: normal_prior_test
+68/175 Test: normal_prior_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"normal_prior_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"normal_prior_test" end time: Feb 05 18:06 CST
+"normal_prior_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/numeric_diff_cost_function_test
+69/175 Testing: numeric_diff_cost_function_test
+69/175 Test: numeric_diff_cost_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"numeric_diff_cost_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"numeric_diff_cost_function_test" end time: Feb 05 18:06 CST
+"numeric_diff_cost_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/numeric_diff_first_order_function_test
+70/175 Testing: numeric_diff_first_order_function_test
+70/175 Test: numeric_diff_first_order_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"numeric_diff_first_order_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"numeric_diff_first_order_function_test" end time: Feb 05 18:06 CST
+"numeric_diff_first_order_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ordered_groups_test
+71/175 Testing: ordered_groups_test
+71/175 Test: ordered_groups_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"ordered_groups_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ordered_groups_test" end time: Feb 05 18:06 CST
+"ordered_groups_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/parallel_for_test
+72/175 Testing: parallel_for_test
+72/175 Test: parallel_for_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"parallel_for_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parallel_for_test" end time: Feb 05 18:06 CST
+"parallel_for_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/parallel_utils_test
+73/175 Testing: parallel_utils_test
+73/175 Test: parallel_utils_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"parallel_utils_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parallel_utils_test" end time: Feb 05 18:06 CST
+"parallel_utils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/parameter_block_test
+74/175 Testing: parameter_block_test
+74/175 Test: parameter_block_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"parameter_block_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parameter_block_test" end time: Feb 05 18:06 CST
+"parameter_block_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/parameter_block_ordering_test
+75/175 Testing: parameter_block_ordering_test
+75/175 Test: parameter_block_ordering_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"parameter_block_ordering_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parameter_block_ordering_test" end time: Feb 05 18:06 CST
+"parameter_block_ordering_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/parameter_dims_test
+76/175 Testing: parameter_dims_test
+76/175 Test: parameter_dims_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"parameter_dims_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parameter_dims_test" end time: Feb 05 18:06 CST
+"parameter_dims_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/partitioned_matrix_view_test
+77/175 Testing: partitioned_matrix_view_test
+77/175 Test: partitioned_matrix_view_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"partitioned_matrix_view_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"partitioned_matrix_view_test" end time: Feb 05 18:06 CST
+"partitioned_matrix_view_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/polynomial_test
+78/175 Testing: polynomial_test
+78/175 Test: polynomial_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"polynomial_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"polynomial_test" end time: Feb 05 18:06 CST
+"polynomial_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/power_series_expansion_preconditioner_test
+79/175 Testing: power_series_expansion_preconditioner_test
+79/175 Test: power_series_expansion_preconditioner_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"power_series_expansion_preconditioner_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"power_series_expansion_preconditioner_test" end time: Feb 05 18:06 CST
+"power_series_expansion_preconditioner_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/problem_test
+80/175 Testing: problem_test
+80/175 Test: problem_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"problem_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"problem_test" end time: Feb 05 18:06 CST
+"problem_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/program_test
+81/175 Testing: program_test
+81/175 Test: program_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"program_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"program_test" end time: Feb 05 18:06 CST
+"program_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/reorder_program_test
+82/175 Testing: reorder_program_test
+82/175 Test: reorder_program_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"reorder_program_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"reorder_program_test" end time: Feb 05 18:06 CST
+"reorder_program_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/residual_block_test
+83/175 Testing: residual_block_test
+83/175 Test: residual_block_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"residual_block_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"residual_block_test" end time: Feb 05 18:06 CST
+"residual_block_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/residual_block_utils_test
+84/175 Testing: residual_block_utils_test
+84/175 Test: residual_block_utils_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"residual_block_utils_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"residual_block_utils_test" end time: Feb 05 18:06 CST
+"residual_block_utils_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/rotation_test
+85/175 Testing: rotation_test
+85/175 Test: rotation_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"rotation_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"rotation_test" end time: Feb 05 18:06 CST
+"rotation_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/schur_complement_solver_test
+86/175 Testing: schur_complement_solver_test
+86/175 Test: schur_complement_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"schur_complement_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"schur_complement_solver_test" end time: Feb 05 18:06 CST
+"schur_complement_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/schur_eliminator_test
+87/175 Testing: schur_eliminator_test
+87/175 Test: schur_eliminator_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"schur_eliminator_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"schur_eliminator_test" end time: Feb 05 18:06 CST
+"schur_eliminator_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/single_linkage_clustering_test
+88/175 Testing: single_linkage_clustering_test
+88/175 Test: single_linkage_clustering_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"single_linkage_clustering_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"single_linkage_clustering_test" end time: Feb 05 18:06 CST
+"single_linkage_clustering_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/small_blas_test
+89/175 Testing: small_blas_test
+89/175 Test: small_blas_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"small_blas_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"small_blas_test" end time: Feb 05 18:06 CST
+"small_blas_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/solver_test
+90/175 Testing: solver_test
+90/175 Test: solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"solver_test" end time: Feb 05 18:06 CST
+"solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/sparse_cholesky_test
+91/175 Testing: sparse_cholesky_test
+91/175 Test: sparse_cholesky_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"sparse_cholesky_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"sparse_cholesky_test" end time: Feb 05 18:06 CST
+"sparse_cholesky_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/sparse_normal_cholesky_solver_test
+92/175 Testing: sparse_normal_cholesky_solver_test
+92/175 Test: sparse_normal_cholesky_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"sparse_normal_cholesky_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"sparse_normal_cholesky_solver_test" end time: Feb 05 18:06 CST
+"sparse_normal_cholesky_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/subset_preconditioner_test
+93/175 Testing: subset_preconditioner_test
+93/175 Test: subset_preconditioner_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"subset_preconditioner_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"subset_preconditioner_test" end time: Feb 05 18:06 CST
+"subset_preconditioner_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/system_test
+94/175 Testing: system_test
+94/175 Test: system_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"system_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"system_test" end time: Feb 05 18:06 CST
+"system_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/tiny_solver_test
+95/175 Testing: tiny_solver_test
+95/175 Test: tiny_solver_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"tiny_solver_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tiny_solver_test" end time: Feb 05 18:06 CST
+"tiny_solver_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/tiny_solver_autodiff_function_test
+96/175 Testing: tiny_solver_autodiff_function_test
+96/175 Test: tiny_solver_autodiff_function_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"tiny_solver_autodiff_function_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tiny_solver_autodiff_function_test" end time: Feb 05 18:06 CST
+"tiny_solver_autodiff_function_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/tiny_solver_cost_function_adapter_test
+97/175 Testing: tiny_solver_cost_function_adapter_test
+97/175 Test: tiny_solver_cost_function_adapter_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"tiny_solver_cost_function_adapter_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tiny_solver_cost_function_adapter_test" end time: Feb 05 18:06 CST
+"tiny_solver_cost_function_adapter_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/thread_pool_test
+98/175 Testing: thread_pool_test
+98/175 Test: thread_pool_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"thread_pool_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"thread_pool_test" end time: Feb 05 18:06 CST
+"thread_pool_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/triplet_sparse_matrix_test
+99/175 Testing: triplet_sparse_matrix_test
+99/175 Test: triplet_sparse_matrix_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"triplet_sparse_matrix_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"triplet_sparse_matrix_test" end time: Feb 05 18:06 CST
+"triplet_sparse_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/trust_region_minimizer_test
+100/175 Testing: trust_region_minimizer_test
+100/175 Test: trust_region_minimizer_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"trust_region_minimizer_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"trust_region_minimizer_test" end time: Feb 05 18:06 CST
+"trust_region_minimizer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/trust_region_preprocessor_test
+101/175 Testing: trust_region_preprocessor_test
+101/175 Test: trust_region_preprocessor_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"trust_region_preprocessor_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"trust_region_preprocessor_test" end time: Feb 05 18:06 CST
+"trust_region_preprocessor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/visibility_test
+102/175 Testing: visibility_test
+102/175 Test: visibility_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"visibility_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"visibility_test" end time: Feb 05 18:06 CST
+"visibility_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/visibility_based_preconditioner_test
+103/175 Testing: visibility_based_preconditioner_test
+103/175 Test: visibility_based_preconditioner_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres
+"visibility_based_preconditioner_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"visibility_based_preconditioner_test" end time: Feb 05 18:06 CST
+"visibility_based_preconditioner_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_eigen_auto_test
+104/175 Testing: ba_denseschur_eigen_auto_test
+104/175 Test: ba_denseschur_eigen_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_eigen_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_eigen_auto_test" end time: Feb 05 18:06 CST
+"ba_denseschur_eigen_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_lapack_auto_test
+105/175 Testing: ba_denseschur_lapack_auto_test
+105/175 Test: ba_denseschur_lapack_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_lapack_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_lapack_auto_test" end time: Feb 05 18:06 CST
+"ba_denseschur_lapack_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_cuda_auto_test
+106/175 Testing: ba_denseschur_cuda_auto_test
+106/175 Test: ba_denseschur_cuda_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_cuda_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_cuda_auto_test" end time: Feb 05 18:06 CST
+"ba_denseschur_cuda_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_suitesparse_auto_test
+107/175 Testing: ba_sparsecholesky_suitesparse_auto_test
+107/175 Test: ba_sparsecholesky_suitesparse_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_suitesparse_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_suitesparse_auto_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_suitesparse_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_eigensparse_auto_test
+108/175 Testing: ba_sparsecholesky_eigensparse_auto_test
+108/175 Test: ba_sparsecholesky_eigensparse_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_eigensparse_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_eigensparse_auto_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_eigensparse_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_acceleratesparse_auto_test
+109/175 Testing: ba_sparsecholesky_acceleratesparse_auto_test
+109/175 Test: ba_sparsecholesky_acceleratesparse_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_acceleratesparse_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_acceleratesparse_auto_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_acceleratesparse_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_suitesparse_auto_test
+110/175 Testing: ba_sparseschur_suitesparse_auto_test
+110/175 Test: ba_sparseschur_suitesparse_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_suitesparse_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_suitesparse_auto_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_suitesparse_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_eigensparse_auto_test
+111/175 Testing: ba_sparseschur_eigensparse_auto_test
+111/175 Test: ba_sparseschur_eigensparse_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_eigensparse_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_eigensparse_auto_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_eigensparse_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_acceleratesparse_auto_test
+112/175 Testing: ba_sparseschur_acceleratesparse_auto_test
+112/175 Test: ba_sparseschur_acceleratesparse_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_acceleratesparse_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_acceleratesparse_auto_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_acceleratesparse_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_jacobi_auto_test
+113/175 Testing: ba_iterschur_jacobi_auto_test
+113/175 Test: ba_iterschur_jacobi_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_jacobi_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_jacobi_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_jacobi_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_schurjacobi_auto_test
+114/175 Testing: ba_iterschur_schurjacobi_auto_test
+114/175 Test: ba_iterschur_schurjacobi_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_schurjacobi_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_schurjacobi_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_schurjacobi_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_spse_auto_test
+115/175 Testing: ba_iterschur_spse_auto_test
+115/175 Test: ba_iterschur_spse_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_spse_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_spse_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_spse_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clustjacobi_auto_test
+116/175 Testing: ba_iterschur_suitesparse_clustjacobi_auto_test
+116/175 Test: ba_iterschur_suitesparse_clustjacobi_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clustjacobi_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clustjacobi_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clustjacobi_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clustjacobi_auto_test
+117/175 Testing: ba_iterschur_eigensparse_clustjacobi_auto_test
+117/175 Test: ba_iterschur_eigensparse_clustjacobi_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clustjacobi_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clustjacobi_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clustjacobi_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clustjacobi_auto_test
+118/175 Testing: ba_iterschur_acceleratesparse_clustjacobi_auto_test
+118/175 Test: ba_iterschur_acceleratesparse_clustjacobi_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clustjacobi_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clustjacobi_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clustjacobi_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clusttri_auto_test
+119/175 Testing: ba_iterschur_suitesparse_clusttri_auto_test
+119/175 Test: ba_iterschur_suitesparse_clusttri_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clusttri_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clusttri_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clusttri_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clusttri_auto_test
+120/175 Testing: ba_iterschur_eigensparse_clusttri_auto_test
+120/175 Test: ba_iterschur_eigensparse_clusttri_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clusttri_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clusttri_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clusttri_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clusttri_auto_test
+121/175 Testing: ba_iterschur_acceleratesparse_clusttri_auto_test
+121/175 Test: ba_iterschur_acceleratesparse_clusttri_auto_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clusttri_auto_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clusttri_auto_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clusttri_auto_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_eigen_auto_threads_test
+122/175 Testing: ba_denseschur_eigen_auto_threads_test
+122/175 Test: ba_denseschur_eigen_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_eigen_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_eigen_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_denseschur_eigen_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_lapack_auto_threads_test
+123/175 Testing: ba_denseschur_lapack_auto_threads_test
+123/175 Test: ba_denseschur_lapack_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_lapack_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_lapack_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_denseschur_lapack_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_cuda_auto_threads_test
+124/175 Testing: ba_denseschur_cuda_auto_threads_test
+124/175 Test: ba_denseschur_cuda_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_cuda_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_cuda_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_denseschur_cuda_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_suitesparse_auto_threads_test
+125/175 Testing: ba_sparsecholesky_suitesparse_auto_threads_test
+125/175 Test: ba_sparsecholesky_suitesparse_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_suitesparse_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_suitesparse_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_suitesparse_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_eigensparse_auto_threads_test
+126/175 Testing: ba_sparsecholesky_eigensparse_auto_threads_test
+126/175 Test: ba_sparsecholesky_eigensparse_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_eigensparse_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_eigensparse_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_eigensparse_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_acceleratesparse_auto_threads_test
+127/175 Testing: ba_sparsecholesky_acceleratesparse_auto_threads_test
+127/175 Test: ba_sparsecholesky_acceleratesparse_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_acceleratesparse_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_acceleratesparse_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_acceleratesparse_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_suitesparse_auto_threads_test
+128/175 Testing: ba_sparseschur_suitesparse_auto_threads_test
+128/175 Test: ba_sparseschur_suitesparse_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_suitesparse_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_suitesparse_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_suitesparse_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_eigensparse_auto_threads_test
+129/175 Testing: ba_sparseschur_eigensparse_auto_threads_test
+129/175 Test: ba_sparseschur_eigensparse_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_eigensparse_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_eigensparse_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_eigensparse_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_acceleratesparse_auto_threads_test
+130/175 Testing: ba_sparseschur_acceleratesparse_auto_threads_test
+130/175 Test: ba_sparseschur_acceleratesparse_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_acceleratesparse_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_acceleratesparse_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_acceleratesparse_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_jacobi_auto_threads_test
+131/175 Testing: ba_iterschur_jacobi_auto_threads_test
+131/175 Test: ba_iterschur_jacobi_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_jacobi_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_jacobi_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_jacobi_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_schurjacobi_auto_threads_test
+132/175 Testing: ba_iterschur_schurjacobi_auto_threads_test
+132/175 Test: ba_iterschur_schurjacobi_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_schurjacobi_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_schurjacobi_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_schurjacobi_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_spse_auto_threads_test
+133/175 Testing: ba_iterschur_spse_auto_threads_test
+133/175 Test: ba_iterschur_spse_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_spse_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_spse_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_spse_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clustjacobi_auto_threads_test
+134/175 Testing: ba_iterschur_suitesparse_clustjacobi_auto_threads_test
+134/175 Test: ba_iterschur_suitesparse_clustjacobi_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clustjacobi_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clustjacobi_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clustjacobi_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clustjacobi_auto_threads_test
+135/175 Testing: ba_iterschur_eigensparse_clustjacobi_auto_threads_test
+135/175 Test: ba_iterschur_eigensparse_clustjacobi_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clustjacobi_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clustjacobi_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clustjacobi_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clustjacobi_auto_threads_test
+136/175 Testing: ba_iterschur_acceleratesparse_clustjacobi_auto_threads_test
+136/175 Test: ba_iterschur_acceleratesparse_clustjacobi_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clustjacobi_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clustjacobi_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clustjacobi_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clusttri_auto_threads_test
+137/175 Testing: ba_iterschur_suitesparse_clusttri_auto_threads_test
+137/175 Test: ba_iterschur_suitesparse_clusttri_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clusttri_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clusttri_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clusttri_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clusttri_auto_threads_test
+138/175 Testing: ba_iterschur_eigensparse_clusttri_auto_threads_test
+138/175 Test: ba_iterschur_eigensparse_clusttri_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clusttri_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clusttri_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clusttri_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clusttri_auto_threads_test
+139/175 Testing: ba_iterschur_acceleratesparse_clusttri_auto_threads_test
+139/175 Test: ba_iterschur_acceleratesparse_clusttri_auto_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clusttri_auto_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clusttri_auto_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clusttri_auto_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_eigen_user_test
+140/175 Testing: ba_denseschur_eigen_user_test
+140/175 Test: ba_denseschur_eigen_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_eigen_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_eigen_user_test" end time: Feb 05 18:06 CST
+"ba_denseschur_eigen_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_lapack_user_test
+141/175 Testing: ba_denseschur_lapack_user_test
+141/175 Test: ba_denseschur_lapack_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_lapack_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_lapack_user_test" end time: Feb 05 18:06 CST
+"ba_denseschur_lapack_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_cuda_user_test
+142/175 Testing: ba_denseschur_cuda_user_test
+142/175 Test: ba_denseschur_cuda_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_cuda_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_cuda_user_test" end time: Feb 05 18:06 CST
+"ba_denseschur_cuda_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_suitesparse_user_test
+143/175 Testing: ba_sparsecholesky_suitesparse_user_test
+143/175 Test: ba_sparsecholesky_suitesparse_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_suitesparse_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_suitesparse_user_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_suitesparse_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_eigensparse_user_test
+144/175 Testing: ba_sparsecholesky_eigensparse_user_test
+144/175 Test: ba_sparsecholesky_eigensparse_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_eigensparse_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_eigensparse_user_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_eigensparse_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_acceleratesparse_user_test
+145/175 Testing: ba_sparsecholesky_acceleratesparse_user_test
+145/175 Test: ba_sparsecholesky_acceleratesparse_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_acceleratesparse_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_acceleratesparse_user_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_acceleratesparse_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_suitesparse_user_test
+146/175 Testing: ba_sparseschur_suitesparse_user_test
+146/175 Test: ba_sparseschur_suitesparse_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_suitesparse_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_suitesparse_user_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_suitesparse_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_eigensparse_user_test
+147/175 Testing: ba_sparseschur_eigensparse_user_test
+147/175 Test: ba_sparseschur_eigensparse_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_eigensparse_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_eigensparse_user_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_eigensparse_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_acceleratesparse_user_test
+148/175 Testing: ba_sparseschur_acceleratesparse_user_test
+148/175 Test: ba_sparseschur_acceleratesparse_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_acceleratesparse_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_acceleratesparse_user_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_acceleratesparse_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_jacobi_user_test
+149/175 Testing: ba_iterschur_jacobi_user_test
+149/175 Test: ba_iterschur_jacobi_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_jacobi_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_jacobi_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_jacobi_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_schurjacobi_user_test
+150/175 Testing: ba_iterschur_schurjacobi_user_test
+150/175 Test: ba_iterschur_schurjacobi_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_schurjacobi_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_schurjacobi_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_schurjacobi_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_spse_user_test
+151/175 Testing: ba_iterschur_spse_user_test
+151/175 Test: ba_iterschur_spse_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_spse_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_spse_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_spse_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clustjacobi_user_test
+152/175 Testing: ba_iterschur_suitesparse_clustjacobi_user_test
+152/175 Test: ba_iterschur_suitesparse_clustjacobi_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clustjacobi_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clustjacobi_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clustjacobi_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clustjacobi_user_test
+153/175 Testing: ba_iterschur_eigensparse_clustjacobi_user_test
+153/175 Test: ba_iterschur_eigensparse_clustjacobi_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clustjacobi_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clustjacobi_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clustjacobi_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clustjacobi_user_test
+154/175 Testing: ba_iterschur_acceleratesparse_clustjacobi_user_test
+154/175 Test: ba_iterschur_acceleratesparse_clustjacobi_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clustjacobi_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clustjacobi_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clustjacobi_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clusttri_user_test
+155/175 Testing: ba_iterschur_suitesparse_clusttri_user_test
+155/175 Test: ba_iterschur_suitesparse_clusttri_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clusttri_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clusttri_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clusttri_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clusttri_user_test
+156/175 Testing: ba_iterschur_eigensparse_clusttri_user_test
+156/175 Test: ba_iterschur_eigensparse_clusttri_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clusttri_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clusttri_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clusttri_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clusttri_user_test
+157/175 Testing: ba_iterschur_acceleratesparse_clusttri_user_test
+157/175 Test: ba_iterschur_acceleratesparse_clusttri_user_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clusttri_user_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clusttri_user_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clusttri_user_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_eigen_user_threads_test
+158/175 Testing: ba_denseschur_eigen_user_threads_test
+158/175 Test: ba_denseschur_eigen_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_eigen_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_eigen_user_threads_test" end time: Feb 05 18:06 CST
+"ba_denseschur_eigen_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_lapack_user_threads_test
+159/175 Testing: ba_denseschur_lapack_user_threads_test
+159/175 Test: ba_denseschur_lapack_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_lapack_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_lapack_user_threads_test" end time: Feb 05 18:06 CST
+"ba_denseschur_lapack_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_denseschur_cuda_user_threads_test
+160/175 Testing: ba_denseschur_cuda_user_threads_test
+160/175 Test: ba_denseschur_cuda_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_denseschur_cuda_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_denseschur_cuda_user_threads_test" end time: Feb 05 18:06 CST
+"ba_denseschur_cuda_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_suitesparse_user_threads_test
+161/175 Testing: ba_sparsecholesky_suitesparse_user_threads_test
+161/175 Test: ba_sparsecholesky_suitesparse_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_suitesparse_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_suitesparse_user_threads_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_suitesparse_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_eigensparse_user_threads_test
+162/175 Testing: ba_sparsecholesky_eigensparse_user_threads_test
+162/175 Test: ba_sparsecholesky_eigensparse_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_eigensparse_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_eigensparse_user_threads_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_eigensparse_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparsecholesky_acceleratesparse_user_threads_test
+163/175 Testing: ba_sparsecholesky_acceleratesparse_user_threads_test
+163/175 Test: ba_sparsecholesky_acceleratesparse_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparsecholesky_acceleratesparse_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparsecholesky_acceleratesparse_user_threads_test" end time: Feb 05 18:06 CST
+"ba_sparsecholesky_acceleratesparse_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_suitesparse_user_threads_test
+164/175 Testing: ba_sparseschur_suitesparse_user_threads_test
+164/175 Test: ba_sparseschur_suitesparse_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_suitesparse_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_suitesparse_user_threads_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_suitesparse_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_eigensparse_user_threads_test
+165/175 Testing: ba_sparseschur_eigensparse_user_threads_test
+165/175 Test: ba_sparseschur_eigensparse_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_eigensparse_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_eigensparse_user_threads_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_eigensparse_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_sparseschur_acceleratesparse_user_threads_test
+166/175 Testing: ba_sparseschur_acceleratesparse_user_threads_test
+166/175 Test: ba_sparseschur_acceleratesparse_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_sparseschur_acceleratesparse_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_sparseschur_acceleratesparse_user_threads_test" end time: Feb 05 18:06 CST
+"ba_sparseschur_acceleratesparse_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_jacobi_user_threads_test
+167/175 Testing: ba_iterschur_jacobi_user_threads_test
+167/175 Test: ba_iterschur_jacobi_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_jacobi_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_jacobi_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_jacobi_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_schurjacobi_user_threads_test
+168/175 Testing: ba_iterschur_schurjacobi_user_threads_test
+168/175 Test: ba_iterschur_schurjacobi_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_schurjacobi_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_schurjacobi_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_schurjacobi_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_spse_user_threads_test
+169/175 Testing: ba_iterschur_spse_user_threads_test
+169/175 Test: ba_iterschur_spse_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_spse_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_spse_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_spse_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clustjacobi_user_threads_test
+170/175 Testing: ba_iterschur_suitesparse_clustjacobi_user_threads_test
+170/175 Test: ba_iterschur_suitesparse_clustjacobi_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clustjacobi_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clustjacobi_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clustjacobi_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clustjacobi_user_threads_test
+171/175 Testing: ba_iterschur_eigensparse_clustjacobi_user_threads_test
+171/175 Test: ba_iterschur_eigensparse_clustjacobi_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clustjacobi_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clustjacobi_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clustjacobi_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clustjacobi_user_threads_test
+172/175 Testing: ba_iterschur_acceleratesparse_clustjacobi_user_threads_test
+172/175 Test: ba_iterschur_acceleratesparse_clustjacobi_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clustjacobi_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clustjacobi_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clustjacobi_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_suitesparse_clusttri_user_threads_test
+173/175 Testing: ba_iterschur_suitesparse_clusttri_user_threads_test
+173/175 Test: ba_iterschur_suitesparse_clusttri_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_suitesparse_clusttri_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_suitesparse_clusttri_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_suitesparse_clusttri_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_eigensparse_clusttri_user_threads_test
+174/175 Testing: ba_iterschur_eigensparse_clusttri_user_threads_test
+174/175 Test: ba_iterschur_eigensparse_clusttri_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_eigensparse_clusttri_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_eigensparse_clusttri_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_eigensparse_clusttri_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/bin/ba_iterschur_acceleratesparse_clusttri_user_threads_test
+175/175 Testing: ba_iterschur_acceleratesparse_clusttri_user_threads_test
+175/175 Test: ba_iterschur_acceleratesparse_clusttri_user_threads_test
+Command: "" "--test_srcdir" "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/data"
+Directory: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/internal/ceres/generated_bundle_adjustment_tests
+"ba_iterschur_acceleratesparse_clusttri_user_threads_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ba_iterschur_acceleratesparse_clusttri_user_threads_test" end time: Feb 05 18:06 CST
+"ba_iterschur_acceleratesparse_clusttri_user_threads_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 05 18:06 CST

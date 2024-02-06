@@ -1,0 +1,1893 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:54 (project)"
+    message: |
+      The system is: Linux - 5.15.0-92-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:54 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:54 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:54 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-24XugE"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-24XugE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-24XugE
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed107/fast && /usr/bin/make  -f CMakeFiles/cmTC_ed107.dir/build.make CMakeFiles/cmTC_ed107.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-24XugE'
+        Building C object CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -c /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccz9FK6i.s
+        GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/9/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o /tmp/ccz9FK6i.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_ed107
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed107.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -o cmTC_ed107 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed107' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGHVdPI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ed107 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed107' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-24XugE'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:54 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:54 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-24XugE]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed107/fast && /usr/bin/make  -f CMakeFiles/cmTC_ed107.dir/build.make CMakeFiles/cmTC_ed107.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-24XugE']
+        ignore line: [Building C object CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -c /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccz9FK6i.s]
+        ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o /tmp/ccz9FK6i.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_ed107]
+        ignore line: [/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed107.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -o cmTC_ed107 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed107' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGHVdPI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ed107 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccGHVdPI.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ed107] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+          arg [CMakeFiles/cmTC_ed107.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:54 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zdkXDB"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zdkXDB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zdkXDB
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_307ec/fast && /usr/bin/make  -f CMakeFiles/cmTC_307ec.dir/build.make CMakeFiles/cmTC_307ec.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zdkXDB'
+        Building CXX object CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -c /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccj3q8Dr.s
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/9
+         /usr/include/x86_64-linux-gnu/c++/9
+         /usr/include/c++/9/backward
+         /usr/lib/gcc/x86_64-linux-gnu/9/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccj3q8Dr.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_307ec
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_307ec.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_307ec 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_307ec' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwXLwoT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_307ec /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_307ec' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zdkXDB'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:54 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/9]
+          add: [/usr/include/x86_64-linux-gnu/c++/9]
+          add: [/usr/include/c++/9/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+        collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:54 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zdkXDB]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_307ec/fast && /usr/bin/make  -f CMakeFiles/cmTC_307ec.dir/build.make CMakeFiles/cmTC_307ec.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-zdkXDB']
+        ignore line: [Building CXX object CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -c /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccj3q8Dr.s]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/9]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+        ignore line: [ /usr/include/c++/9/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccj3q8Dr.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_307ec]
+        ignore line: [/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_307ec.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_307ec ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_307ec' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwXLwoT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_307ec /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccwXLwoT.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_307ec] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+          arg [CMakeFiles/cmTC_307ec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:90 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_BIGOBJ"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-qomaBE"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-qomaBE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BIGOBJ"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-qomaBE
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8e27/fast && /usr/bin/make  -f CMakeFiles/cmTC_f8e27.dir/build.make CMakeFiles/cmTC_f8e27.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-qomaBE'
+        Building CXX object CMakeFiles/cmTC_f8e27.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_BIGOBJ  -fPIE   /bigobj -o CMakeFiles/cmTC_f8e27.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-qomaBE/src.cxx
+        c++: error: /bigobj: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_f8e27.dir/build.make:78: CMakeFiles/cmTC_f8e27.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-qomaBE'
+        make: *** [Makefile:127: cmTC_f8e27/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "CMakeLists.txt:91 (check_library_exists)"
+    checks:
+      - "Looking for pow in m"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0b50e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0b50e.dir/build.make CMakeFiles/cmTC_0b50e.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC'
+        Building C object CMakeFiles/cmTC_0b50e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow -fPIE -o CMakeFiles/cmTC_0b50e.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_0b50e
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b50e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow CMakeFiles/cmTC_0b50e.dir/CheckFunctionExists.c.o -o cmTC_0b50e  -lm 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-SiVOEC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "CMakeLists.txt:243 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1LSG0D"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1LSG0D"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1LSG0D
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ecd81/fast && /usr/bin/make  -f CMakeFiles/cmTC_ecd81.dir/build.make CMakeFiles/cmTC_ecd81.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1LSG0D'
+        Building C object CMakeFiles/cmTC_ecd81.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_ecd81.dir/src.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1LSG0D/src.c
+        Linking C executable cmTC_ecd81
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecd81.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ecd81.dir/src.c.o -o cmTC_ecd81 
+        /usr/bin/ld: CMakeFiles/cmTC_ecd81.dir/src.c.o: in function `main':
+        src.c:(.text+0x46): undefined reference to `pthread_create'
+        /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+        /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+        /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_ecd81.dir/build.make:99: cmTC_ecd81] Error 1
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-1LSG0D'
+        make: *** [Makefile:127: cmTC_ecd81/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "CMakeLists.txt:243 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-9TgS6C"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-9TgS6C"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-9TgS6C
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4c31f/fast && /usr/bin/make  -f CMakeFiles/cmTC_4c31f.dir/build.make CMakeFiles/cmTC_4c31f.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-9TgS6C'
+        Building C object CMakeFiles/cmTC_4c31f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_4c31f.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-9TgS6C/CheckFunctionExists.c
+        Linking C executable cmTC_4c31f
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c31f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_4c31f.dir/CheckFunctionExists.c.o -o cmTC_4c31f  -lpthreads 
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_4c31f.dir/build.make:99: cmTC_4c31f] Error 1
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-9TgS6C'
+        make: *** [Makefile:127: cmTC_4c31f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindCUDAToolkit.cmake:1009 (find_package)"
+      - "CMakeLists.txt:243 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-T6cBnF"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-T6cBnF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-T6cBnF
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9a1aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_9a1aa.dir/build.make CMakeFiles/cmTC_9a1aa.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-T6cBnF'
+        Building C object CMakeFiles/cmTC_9a1aa.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_9a1aa.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-T6cBnF/CheckFunctionExists.c
+        Linking C executable cmTC_9a1aa
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a1aa.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_9a1aa.dir/CheckFunctionExists.c.o -o cmTC_9a1aa  -lpthread 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-T6cBnF'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:75 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:249 (enable_language)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" matched "nvcc: NVIDIA \\(R\\) Cuda compiler driver":
+      nvcc: NVIDIA (R) Cuda compiler driver
+      Copyright (c) 2005-2019 NVIDIA Corporation
+      Built on Sun_Jul_28_19:07:16_PDT_2019
+      Cuda compilation tools, release 10.1, V10.1.243
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:249 (enable_language)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler: /usr/bin/nvcc 
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      #$ _SPACE_= 
+      #$ _CUDART_=cudart
+      #$ _HERE_=/usr/lib/nvidia-cuda-toolkit/bin
+      #$ _THERE_=/usr/lib/nvidia-cuda-toolkit/bin
+      #$ _TARGET_SIZE_=
+      #$ _TARGET_DIR_=
+      #$ _TARGET_SIZE_=64
+      #$ NVVMIR_LIBRARY_DIR=/usr/lib/nvidia-cuda-toolkit/libdevice
+      #$ PATH=/usr/lib/nvidia-cuda-toolkit/bin:/home/bwilab/hallway_lane_detection_fri2/bin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/shims:/home/bwilab/.pyenv/bin:/opt/ros/noetic/bin:/home/bwilab/.local/bin:/home/bwilab/miniforge3/condabin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/bin:/home/bwilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bwilab/.dotnet/tools:/home/bwilab/.dotnet/tools
+      #$ LIBRARIES=  -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu
+      #$ rm tmp/a_dlink.reg.c
+      #$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+      #$ cicc --c++14 --gnu_version=90400 --allow_managed  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused -nvvmir-library "/usr/lib/nvidia-cuda-toolkit/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --orig_src_file_name "CMakeCUDACompilerId.cu" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"
+      #$ ptxas -arch=sm_30 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_30.cubin" 
+      #$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cmdline="" "--image=profile=sm_30,file=tmp/CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" 
+      #$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      #$ cudafe++ --c++14 --gnu_version=90400 --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      #$ gcc -D__CUDA_ARCH__=300 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -m64 -o "tmp/CMakeCUDACompilerId.o" "tmp/CMakeCUDACompilerId.cudafe1.cpp" 
+      #$ nvlink --arch=sm_30 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -o "tmp/a_dlink.sm_30.cubin"
+      #$ fatbinary --create="tmp/a_dlink.fatbin" -64 --cmdline="" -link "--image=profile=sm_30,file=tmp/a_dlink.sm_30.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" 
+      #$ gcc -c -x c++ -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -m64 -o "tmp/a_dlink.o" "/usr/lib/nvidia-cuda-toolkit/bin/crt/link.stub" 
+      #$ g++ -m64 -o "a.out" -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group 
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.out"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/3.26.3/CompilerIdCUDA/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:523 (message)"
+      - "CMakeLists.txt:249 (enable_language)"
+    message: |
+      Parsed CUDA nvcc implicit link information:
+        found 'PATH=' string: [/usr/lib/nvidia-cuda-toolkit/bin:/home/bwilab/hallway_lane_detection_fri2/bin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/shims:/home/bwilab/.pyenv/bin:/opt/ros/noetic/bin:/home/bwilab/.local/bin:/home/bwilab/miniforge3/condabin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/bin:/home/bwilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bwilab/.dotnet/tools:/home/bwilab/.dotnet/tools]
+        found 'LIBRARIES=' string: [-L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu]
+        considering line: [#$ rm tmp/a_dlink.reg.c]
+        considering line: [gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [cicc --c++14 --gnu_version=90400 --allow_managed  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused -nvvmir-library "/usr/lib/nvidia-cuda-toolkit/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --orig_src_file_name "CMakeCUDACompilerId.cu" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+        considering line: [ptxas -arch=sm_30 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_30.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cmdline="" "--image=profile=sm_30,file=tmp/CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [gcc -E -x c++ -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [cudafe++ --c++14 --gnu_version=90400 --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [gcc -D__CUDA_ARCH__=300 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -m64 -o "tmp/CMakeCUDACompilerId.o" "tmp/CMakeCUDACompilerId.cudafe1.cpp" ]
+        considering line: [nvlink --arch=sm_30 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -o "tmp/a_dlink.sm_30.cubin"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cmdline="" -link "--image=profile=sm_30,file=tmp/a_dlink.sm_30.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [gcc -c -x c++ -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -m64 -o "tmp/a_dlink.o" "/usr/lib/nvidia-cuda-toolkit/bin/crt/link.stub" ]
+        considering line: [g++ -m64 -o "a.out" -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group ]
+          extracted link line: [g++ -m64 -o "a.out" -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group ]
+        considering line: []
+        extracted link launcher name: [g++]
+        found link launcher absolute path: [/usr/lib/nvidia-cuda-toolkit/bin/g++]
+      
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld g++ -m64 -o "a.out" -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group ]
+          arg [cuda-fake-ld] ==> ignore
+          arg [g++] ==> ignore
+          arg [-m64] ==> ignore
+          arg [-o] ==> ignore
+          arg [a.out] ==> ignore
+          arg [-Wl,--start-group] ==> ignore
+          arg [tmp/a_dlink.o] ==> ignore
+          arg [tmp/CMakeCUDACompilerId.o] ==> ignore
+          arg [-L/usr/lib/x86_64-linux-gnu/stubs] ==> dir [/usr/lib/x86_64-linux-gnu/stubs]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-lcudadevrt] ==> lib [cudadevrt]
+          arg [-lcudart_static] ==> lib [cudart_static]
+          arg [-lrt] ==> lib [rt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ldl] ==> lib [dl]
+          arg [-Wl,--end-group] ==> ignore
+        collapse library dir [/usr/lib/x86_64-linux-gnu/stubs] ==> [/usr/lib/x86_64-linux-gnu/stubs]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        implicit libs: [cudadevrt;cudart_static;rt;pthread;dl]
+        implicit objs: []
+        implicit dirs: [/usr/lib/x86_64-linux-gnu/stubs;/usr/lib/x86_64-linux-gnu]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:582 (message)"
+      - "CMakeLists.txt:249 (enable_language)"
+    message: |
+      Failed to detect CUDA nvcc include information:
+        found 'PATH=' string: [/usr/lib/nvidia-cuda-toolkit/bin:/home/bwilab/hallway_lane_detection_fri2/bin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/shims:/home/bwilab/.pyenv/bin:/opt/ros/noetic/bin:/home/bwilab/.local/bin:/home/bwilab/miniforge3/condabin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/bin:/home/bwilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bwilab/.dotnet/tools:/home/bwilab/.dotnet/tools]
+        found 'LIBRARIES=' string: [-L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu]
+        considering line: [#$ rm tmp/a_dlink.reg.c]
+        considering line: [gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [cicc --c++14 --gnu_version=90400 --allow_managed  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused -nvvmir-library "/usr/lib/nvidia-cuda-toolkit/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --orig_src_file_name "CMakeCUDACompilerId.cu" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+        considering line: [ptxas -arch=sm_30 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_30.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cmdline="" "--image=profile=sm_30,file=tmp/CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [gcc -E -x c++ -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [cudafe++ --c++14 --gnu_version=90400 --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [gcc -D__CUDA_ARCH__=300 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -m64 -o "tmp/CMakeCUDACompilerId.o" "tmp/CMakeCUDACompilerId.cudafe1.cpp" ]
+        considering line: [nvlink --arch=sm_30 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -o "tmp/a_dlink.sm_30.cubin"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cmdline="" -link "--image=profile=sm_30,file=tmp/a_dlink.sm_30.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [gcc -c -x c++ -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -m64 -o "tmp/a_dlink.o" "/usr/lib/nvidia-cuda-toolkit/bin/crt/link.stub" ]
+        considering line: [g++ -m64 -o "a.out" -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group ]
+          extracted link line: [g++ -m64 -o "a.out" -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group ]
+        considering line: []
+        extracted link launcher name: [g++]
+        found link launcher absolute path: [/usr/lib/nvidia-cuda-toolkit/bin/g++]
+        no 'INCLUDES=' string found in nvcc output:
+          #$ _SPACE_= 
+          #$ _CUDART_=cudart
+          #$ _HERE_=/usr/lib/nvidia-cuda-toolkit/bin
+          #$ _THERE_=/usr/lib/nvidia-cuda-toolkit/bin
+          #$ _TARGET_SIZE_=
+          #$ _TARGET_DIR_=
+          #$ _TARGET_SIZE_=64
+          #$ NVVMIR_LIBRARY_DIR=/usr/lib/nvidia-cuda-toolkit/libdevice
+          #$ PATH=/usr/lib/nvidia-cuda-toolkit/bin:/home/bwilab/hallway_lane_detection_fri2/bin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/shims:/home/bwilab/.pyenv/bin:/opt/ros/noetic/bin:/home/bwilab/.local/bin:/home/bwilab/miniforge3/condabin:/home/bwilab/.pyenv/plugins/pyenv-virtualenv/shims:/home/bwilab/.pyenv/bin:/home/bwilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bwilab/.dotnet/tools:/home/bwilab/.dotnet/tools
+          #$ LIBRARIES=  -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu
+          #$ rm tmp/a_dlink.reg.c
+          #$ gcc -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+          #$ cicc --c++14 --gnu_version=90400 --allow_managed  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused -nvvmir-library "/usr/lib/nvidia-cuda-toolkit/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --orig_src_file_name "CMakeCUDACompilerId.cu" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"
+          #$ ptxas -arch=sm_30 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_30.cubin" 
+          #$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cmdline="" "--image=profile=sm_30,file=tmp/CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" 
+          #$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp4.ii" 
+          #$ cudafe++ --c++14 --gnu_version=90400 --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" 
+          #$ gcc -D__CUDA_ARCH__=300 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -m64 -o "tmp/CMakeCUDACompilerId.o" "tmp/CMakeCUDACompilerId.cudafe1.cpp" 
+          #$ nvlink --arch=sm_30 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -o "tmp/a_dlink.sm_30.cubin"
+          #$ fatbinary --create="tmp/a_dlink.fatbin" -64 --cmdline="" -link "--image=profile=sm_30,file=tmp/a_dlink.sm_30.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" 
+          #$ gcc -c -x c++ -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__   -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=243 -m64 -o "tmp/a_dlink.o" "/usr/lib/nvidia-cuda-toolkit/bin/crt/link.stub" 
+          #$ g++ -m64 -o "a.out" -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group 
+          
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:249 (enable_language)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4F7gQE"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4F7gQE"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "30"
+      CMAKE_CUDA_FLAGS: ""
+      CMAKE_CUDA_FLAGS_DEBUG: "-g"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4F7gQE
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24a1a/fast && /usr/bin/make  -f CMakeFiles/cmTC_24a1a.dir/build.make CMakeFiles/cmTC_24a1a.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4F7gQE'
+        Building CUDA object CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o
+        /usr/bin/nvcc    --generate-code=arch=compute_30,code=[compute_30,sm_30] -Xcompiler=-fPIE   -Xcompiler=-v -x cu -c /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o
+        Using built-in specs.
+        COLLECT_GCC=gcc-8
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=300 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/8
+         /usr/include/x86_64-linux-gnu/c++/8
+         /usr/include/c++/8/backward
+         /usr/lib/gcc/x86_64-linux-gnu/8/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+        Using built-in specs.
+        COLLECT_GCC=gcc-8
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+        COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/8
+         /usr/include/x86_64-linux-gnu/c++/8
+         /usr/include/c++/8/backward
+         /usr/lib/gcc/x86_64-linux-gnu/8/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+        Using built-in specs.
+        COLLECT_GCC=gcc-8
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-fPIE' '-v' '-m64' '-o' 'CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=300 -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00027af7_00000000-5_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpbase tmpxft_00027af7_00000000-5_CMakeCUDACompilerABI.cudafe1.cpp -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -version -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccwQCXcf.s
+        GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 8.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/8
+         /usr/include/x86_64-linux-gnu/c++/8
+         /usr/include/c++/8/backward
+         /usr/lib/gcc/x86_64-linux-gnu/8/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 8.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 7f898f3e7c9bafa983b4c472f0e6877a
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-fPIE' '-v' '-m64' '-o' 'CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o /tmp/ccwQCXcf.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-fPIE' '-v' '-m64' '-o' 'CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64'
+        /usr/bin/nvcc    --generate-code=arch=compute_30,code=[compute_30,sm_30] -Xcompiler=-fPIE   -Xcompiler=-v -x cu -M /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -MT CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o.d
+        Using built-in specs.
+        COLLECT_GCC=gcc-8
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=300 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/8
+         /usr/include/x86_64-linux-gnu/c++/8
+         /usr/include/c++/8/backward
+         /usr/lib/gcc/x86_64-linux-gnu/8/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+        Using built-in specs.
+        COLLECT_GCC=gcc-8
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+        COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/8
+         /usr/include/x86_64-linux-gnu/c++/8
+         /usr/include/c++/8/backward
+         /usr/lib/gcc/x86_64-linux-gnu/8/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64'
+        Linking CUDA executable cmTC_24a1a
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24a1a.dir/link.txt --verbose=1
+        /usr/lib/nvidia-cuda-toolkit/bin/g++  -v CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -o cmTC_24a1a  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/lib/x86_64-linux-gnu/stubs" -L"/usr/lib/x86_64-linux-gnu"
+        Using built-in specs.
+        COLLECT_GCC=g++-8
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24a1a' '-L/usr/lib/x86_64-linux-gnu/stubs' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWqK5iG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_24a1a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24a1a' '-L/usr/lib/x86_64-linux-gnu/stubs' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4F7gQE'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:249 (enable_language)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/8]
+          add: [/usr/include/x86_64-linux-gnu/c++/8]
+          add: [/usr/include/c++/8/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/8] ==> [/usr/include/c++/8]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/8] ==> [/usr/include/x86_64-linux-gnu/c++/8]
+        collapse include dir [/usr/include/c++/8/backward] ==> [/usr/include/c++/8/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/8;/usr/include/x86_64-linux-gnu/c++/8;/usr/include/c++/8/backward;/usr/lib/gcc/x86_64-linux-gnu/8/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:249 (enable_language)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4F7gQE]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24a1a/fast && /usr/bin/make  -f CMakeFiles/cmTC_24a1a.dir/build.make CMakeFiles/cmTC_24a1a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-4F7gQE']
+        ignore line: [Building CUDA object CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o]
+        ignore line: [/usr/bin/nvcc    --generate-code=arch=compute_30 code=[compute_30 sm_30] -Xcompiler=-fPIE   -Xcompiler=-v -x cu -c /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=gcc-8]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=300 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/8]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+        ignore line: [ /usr/include/c++/8/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=gcc-8]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/8]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+        ignore line: [ /usr/include/c++/8/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=gcc-8]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-fPIE' '-v' '-m64' '-o' 'CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=300 -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00027af7_00000000-5_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpbase tmpxft_00027af7_00000000-5_CMakeCUDACompilerABI.cudafe1.cpp -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -version -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccwQCXcf.s]
+        ignore line: [GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/8]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+        ignore line: [ /usr/include/c++/8/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 7f898f3e7c9bafa983b4c472f0e6877a]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-fPIE' '-v' '-m64' '-o' 'CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o /tmp/ccwQCXcf.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-fPIE' '-v' '-m64' '-o' 'CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64']
+        ignore line: [/usr/bin/nvcc    --generate-code=arch=compute_30 code=[compute_30 sm_30] -Xcompiler=-fPIE   -Xcompiler=-v -x cu -M /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -MT CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o.d]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=gcc-8]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=300 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/8]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+        ignore line: [ /usr/include/c++/8/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=300' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=gcc-8]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=10 -D __CUDACC_VER_MINOR__=1 -D __CUDACC_VER_BUILD__=243 -include cuda_runtime.h /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCUDACompilerABI.cu -m64 -mtune=generic -march=x86-64 -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/8]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+        ignore line: [ /usr/include/c++/8/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-fPIE' '-v' '-D' '__CUDACC_VER_MAJOR__=10' '-D' '__CUDACC_VER_MINOR__=1' '-D' '__CUDACC_VER_BUILD__=243' '-include' 'cuda_runtime.h' '-m64' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CUDA executable cmTC_24a1a]
+        ignore line: [/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24a1a.dir/link.txt --verbose=1]
+        ignore line: [/usr/lib/nvidia-cuda-toolkit/bin/g++  -v CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -o cmTC_24a1a  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/lib/x86_64-linux-gnu/stubs" -L"/usr/lib/x86_64-linux-gnu"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=g++-8]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24a1a' '-L/usr/lib/x86_64-linux-gnu/stubs' '-L/usr/lib/x86_64-linux-gnu' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWqK5iG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_24a1a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/stubs -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccWqK5iG.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_24a1a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o]
+          arg [-L/usr/lib/x86_64-linux-gnu/stubs] ==> dir [/usr/lib/x86_64-linux-gnu/stubs]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+          arg [CMakeFiles/cmTC_24a1a.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
+          arg [-lcudadevrt] ==> lib [cudadevrt]
+          arg [-lcudart_static] ==> lib [cudart_static]
+          arg [-lrt] ==> lib [rt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ldl] ==> lib [dl]
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/x86_64-linux-gnu/stubs] ==> [/usr/lib/x86_64-linux-gnu/stubs]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+        implicit libs: [cudadevrt;cudart_static;rt;pthread;dl;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/x86_64-linux-gnu/stubs;/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:367 (check_function_exists)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:411 (check_blas_libraries)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "CMakeLists.txt:273 (find_package)"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ilaiwF"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ilaiwF"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ilaiwF
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99b35/fast && /usr/bin/make  -f CMakeFiles/cmTC_99b35.dir/build.make CMakeFiles/cmTC_99b35.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ilaiwF'
+        Building C object CMakeFiles/cmTC_99b35.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fPIE -o CMakeFiles/cmTC_99b35.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ilaiwF/CheckFunctionExists.c
+        Linking C executable cmTC_99b35
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b35.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_99b35.dir/CheckFunctionExists.c.o -o cmTC_99b35 
+        /usr/bin/ld: CMakeFiles/cmTC_99b35.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_99b35.dir/build.make:99: cmTC_99b35] Error 1
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ilaiwF'
+        make: *** [Makefile:127: cmTC_99b35/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:367 (check_function_exists)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindBLAS.cmake:854 (check_blas_libraries)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "CMakeLists.txt:273 (find_package)"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-q2hqdC"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-q2hqdC"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BLAS_blas_f77blas_atlas_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-q2hqdC
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb332/fast && /usr/bin/make  -f CMakeFiles/cmTC_cb332.dir/build.make CMakeFiles/cmTC_cb332.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-q2hqdC'
+        Building C object CMakeFiles/cmTC_cb332.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dgemm_ -fPIE -o CMakeFiles/cmTC_cb332.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-q2hqdC/CheckFunctionExists.c
+        Linking C executable cmTC_cb332
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb332.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ CMakeFiles/cmTC_cb332.dir/CheckFunctionExists.c.o -o cmTC_cb332  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-q2hqdC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:395 (check_lapack_libraries)"
+      - "CMakeLists.txt:273 (find_package)"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-nJVB2A"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-nJVB2A"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-nJVB2A
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c74ef/fast && /usr/bin/make  -f CMakeFiles/cmTC_c74ef.dir/build.make CMakeFiles/cmTC_c74ef.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-nJVB2A'
+        Building C object CMakeFiles/cmTC_c74ef.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_c74ef.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-nJVB2A/CheckFunctionExists.c
+        Linking C executable cmTC_c74ef
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c74ef.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_c74ef.dir/CheckFunctionExists.c.o -o cmTC_c74ef  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lpthread -lm -ldl 
+        /usr/bin/ld: CMakeFiles/cmTC_c74ef.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_c74ef.dir/build.make:102: cmTC_c74ef] Error 1
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-nJVB2A'
+        make: *** [Makefile:127: cmTC_c74ef/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/FindLAPACK.cmake:681 (check_lapack_libraries)"
+      - "CMakeLists.txt:273 (find_package)"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-CWQu5C"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-CWQu5C"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "LAPACK_lapack_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-CWQu5C
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6c5bc/fast && /usr/bin/make  -f CMakeFiles/cmTC_6c5bc.dir/build.make CMakeFiles/cmTC_6c5bc.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-CWQu5C'
+        Building C object CMakeFiles/cmTC_6c5bc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE -o CMakeFiles/cmTC_6c5bc.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-CWQu5C/CheckFunctionExists.c
+        Linking C executable cmTC_6c5bc
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c5bc.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_6c5bc.dir/CheckFunctionExists.c.o -o cmTC_6c5bc  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-CWQu5C'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "cmake/FindSuiteSparse.cmake:357 (check_library_exists)"
+      - "CMakeLists.txt:295 (find_package)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ROlh3A"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ROlh3A"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_LIBRT"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ROlh3A
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e50fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_e50fb.dir/build.make CMakeFiles/cmTC_e50fb.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ROlh3A'
+        Building C object CMakeFiles/cmTC_e50fb.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -o CMakeFiles/cmTC_e50fb.dir/CheckFunctionExists.c.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ROlh3A/CheckFunctionExists.c
+        Linking C executable cmTC_e50fb
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e50fb.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_e50fb.dir/CheckFunctionExists.c.o -o cmTC_e50fb  -lrt 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-ROlh3A'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCompileFlagsIfSupported.cmake:46 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:560 (add_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test CHECK_CXX_FLAG_Wmissing_declarations"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-bxjjSD"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-bxjjSD"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CHECK_CXX_FLAG_Wmissing_declarations"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-bxjjSD
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2436d/fast && /usr/bin/make  -f CMakeFiles/cmTC_2436d.dir/build.make CMakeFiles/cmTC_2436d.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-bxjjSD'
+        Building CXX object CMakeFiles/cmTC_2436d.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wmissing_declarations  -fPIE   -Wmissing-declarations -o CMakeFiles/cmTC_2436d.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-bxjjSD/src.cxx
+        Linking CXX executable cmTC_2436d
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2436d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2436d.dir/src.cxx.o -o cmTC_2436d 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-bxjjSD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCompileFlagsIfSupported.cmake:46 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:563 (add_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test CHECK_CXX_FLAG_Wno_unknown_pragmas"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-TxhnGB"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-TxhnGB"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CHECK_CXX_FLAG_Wno_unknown_pragmas"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-TxhnGB
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_912b3/fast && /usr/bin/make  -f CMakeFiles/cmTC_912b3.dir/build.make CMakeFiles/cmTC_912b3.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-TxhnGB'
+        Building CXX object CMakeFiles/cmTC_912b3.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_unknown_pragmas  -fPIE   -Wno-unknown-pragmas -o CMakeFiles/cmTC_912b3.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-TxhnGB/src.cxx
+        Linking CXX executable cmTC_912b3
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_912b3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_912b3.dir/src.cxx.o -o cmTC_912b3 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-TxhnGB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCompileFlagsIfSupported.cmake:46 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:565 (add_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test CHECK_CXX_FLAG_Wno_sign_compare"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-yYWxrB"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-yYWxrB"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CHECK_CXX_FLAG_Wno_sign_compare"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-yYWxrB
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e963c/fast && /usr/bin/make  -f CMakeFiles/cmTC_e963c.dir/build.make CMakeFiles/cmTC_e963c.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-yYWxrB'
+        Building CXX object CMakeFiles/cmTC_e963c.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_sign_compare  -fPIE   -Wno-sign-compare -o CMakeFiles/cmTC_e963c.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-yYWxrB/src.cxx
+        Linking CXX executable cmTC_e963c
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e963c.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e963c.dir/src.cxx.o -o cmTC_e963c 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-yYWxrB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCompileFlagsIfSupported.cmake:46 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:567 (add_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test CHECK_CXX_FLAG_Wno_unused_parameter"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IUpuJC"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IUpuJC"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CHECK_CXX_FLAG_Wno_unused_parameter"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IUpuJC
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_de846/fast && /usr/bin/make  -f CMakeFiles/cmTC_de846.dir/build.make CMakeFiles/cmTC_de846.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IUpuJC'
+        Building CXX object CMakeFiles/cmTC_de846.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_unused_parameter  -fPIE   -Wno-unused-parameter -o CMakeFiles/cmTC_de846.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IUpuJC/src.cxx
+        Linking CXX executable cmTC_de846
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de846.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_de846.dir/src.cxx.o -o cmTC_de846 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IUpuJC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCompileFlagsIfSupported.cmake:46 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:569 (add_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test CHECK_CXX_FLAG_Wno_missing_field_initializers"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-DfM34E"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-DfM34E"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CHECK_CXX_FLAG_Wno_missing_field_initializers"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-DfM34E
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b33a7/fast && /usr/bin/make  -f CMakeFiles/cmTC_b33a7.dir/build.make CMakeFiles/cmTC_b33a7.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-DfM34E'
+        Building CXX object CMakeFiles/cmTC_b33a7.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_missing_field_initializers  -fPIE   -Wno-missing-field-initializers -o CMakeFiles/cmTC_b33a7.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-DfM34E/src.cxx
+        Linking CXX executable cmTC_b33a7
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b33a7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b33a7.dir/src.cxx.o -o cmTC_b33a7 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-DfM34E'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "internal/ceres/CMakeLists.txt:268 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test CHECK_CXX_FLAG_Wno_missing_declarations"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-D7pDcD"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-D7pDcD"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CHECK_CXX_FLAG_Wno_missing_declarations"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-D7pDcD
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55ccb/fast && /usr/bin/make  -f CMakeFiles/cmTC_55ccb.dir/build.make CMakeFiles/cmTC_55ccb.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-D7pDcD'
+        Building CXX object CMakeFiles/cmTC_55ccb.dir/src.cxx.o
+        /usr/bin/c++ -DCHECK_CXX_FLAG_Wno_missing_declarations  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -Wno-missing-declarations -o CMakeFiles/cmTC_55ccb.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-D7pDcD/src.cxx
+        Linking CXX executable cmTC_55ccb
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55ccb.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_55ccb.dir/src.cxx.o -o cmTC_55ccb 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-D7pDcD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:238 (check_cxx_compiler_flag)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "internal/ceres/CMakeLists.txt:383 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IbM76C"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IbM76C"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IbM76C
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5aeb9/fast && /usr/bin/make  -f CMakeFiles/cmTC_5aeb9.dir/build.make CMakeFiles/cmTC_5aeb9.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IbM76C'
+        Building CXX object CMakeFiles/cmTC_5aeb9.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_5aeb9.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IbM76C/src.cxx
+        Linking CXX executable cmTC_5aeb9
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aeb9.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_5aeb9.dir/src.cxx.o -o cmTC_5aeb9 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-IbM76C'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:239 (check_cxx_compiler_flag)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "internal/ceres/CMakeLists.txt:383 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hAHTbD"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hAHTbD"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hAHTbD
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6a0e/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6a0e.dir/build.make CMakeFiles/cmTC_b6a0e.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hAHTbD'
+        Building CXX object CMakeFiles/cmTC_b6a0e.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b6a0e.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hAHTbD/src.cxx
+        Linking CXX executable cmTC_b6a0e
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a0e.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_b6a0e.dir/src.cxx.o -o cmTC_b6a0e 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hAHTbD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:206 (check_cxx_source_compiles)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "internal/ceres/CMakeLists.txt:383 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB"
+      binary: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "50;60;70;80"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "NONE"
+      CMAKE_CXX_FLAGS: "  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-solver-2.2.0/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB
+        
+        Run Build Command(s):/home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_13798/fast && /usr/bin/make  -f CMakeFiles/cmTC_13798.dir/build.make CMakeFiles/cmTC_13798.dir/build
+        make[1]: Entering directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB'
+        Building CXX object CMakeFiles/cmTC_13798.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  -fPIE -o CMakeFiles/cmTC_13798.dir/src.cxx.o -c /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB/src.cxx
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB/src.cxx:1:37: warning: no previous declaration for ‘int somefunc()’ [-Wmissing-declarations]
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB/src.cxx: In function ‘int main()’:
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                                  ^
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                                  ^
+        /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        Linking CXX executable cmTC_13798
+        /home/bwilab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13798.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wmissing-declarations -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-missing-field-initializers  CMakeFiles/cmTC_13798.dir/src.cxx.o -o cmTC_13798 
+        make[1]: Leaving directory '/home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial/ceres/ceres-bin/CMakeFiles/CMakeScratch/TryCompile-hoWjaB'
+        
+      exitCode: 0
+...
