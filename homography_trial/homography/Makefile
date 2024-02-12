@@ -175,6 +175,44 @@ homographyTest/fast:
 	cd /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial && $(MAKE) $(MAKESILENT) -f homography/CMakeFiles/homographyTest.dir/build.make homography/CMakeFiles/homographyTest.dir/build
 .PHONY : homographyTest/fast
 
+# Convenience name for target.
+homography/CMakeFiles/eigenHomography.dir/rule:
+	cd /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 homography/CMakeFiles/eigenHomography.dir/rule
+.PHONY : homography/CMakeFiles/eigenHomography.dir/rule
+
+# Convenience name for target.
+eigenHomography: homography/CMakeFiles/eigenHomography.dir/rule
+.PHONY : eigenHomography
+
+# fast build rule for target.
+eigenHomography/fast:
+	cd /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial && $(MAKE) $(MAKESILENT) -f homography/CMakeFiles/eigenHomography.dir/build.make homography/CMakeFiles/eigenHomography.dir/build
+.PHONY : eigenHomography/fast
+
+src/eigenHomography.o: src/eigenHomography.cpp.o
+.PHONY : src/eigenHomography.o
+
+# target to build an object file
+src/eigenHomography.cpp.o:
+	cd /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial && $(MAKE) $(MAKESILENT) -f homography/CMakeFiles/eigenHomography.dir/build.make homography/CMakeFiles/eigenHomography.dir/src/eigenHomography.cpp.o
+.PHONY : src/eigenHomography.cpp.o
+
+src/eigenHomography.i: src/eigenHomography.cpp.i
+.PHONY : src/eigenHomography.i
+
+# target to preprocess a source file
+src/eigenHomography.cpp.i:
+	cd /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial && $(MAKE) $(MAKESILENT) -f homography/CMakeFiles/eigenHomography.dir/build.make homography/CMakeFiles/eigenHomography.dir/src/eigenHomography.cpp.i
+.PHONY : src/eigenHomography.cpp.i
+
+src/eigenHomography.s: src/eigenHomography.cpp.s
+.PHONY : src/eigenHomography.s
+
+# target to generate assembly for a file
+src/eigenHomography.cpp.s:
+	cd /home/bwilab/hallway_lane_detection_fri2/pose_prediction_hallway_passing/homography_trial && $(MAKE) $(MAKESILENT) -f homography/CMakeFiles/eigenHomography.dir/build.make homography/CMakeFiles/eigenHomography.dir/src/eigenHomography.cpp.s
+.PHONY : src/eigenHomography.cpp.s
+
 src/homographyTest.o: src/homographyTest.cpp.o
 .PHONY : src/homographyTest.o
 
@@ -211,7 +249,11 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... eigenHomography"
 	@echo "... homographyTest"
+	@echo "... src/eigenHomography.o"
+	@echo "... src/eigenHomography.i"
+	@echo "... src/eigenHomography.s"
 	@echo "... src/homographyTest.o"
 	@echo "... src/homographyTest.i"
 	@echo "... src/homographyTest.s"

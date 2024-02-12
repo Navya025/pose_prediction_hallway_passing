@@ -40,9 +40,36 @@ SET(MULTIKINECT_SRC
     # ColorBlob/MaskGenerator.cpp
 )
 
-add_executable(homographyTest  ${MULTIKINECT_SRC})
+add_executable(homographyTest ${MULTIKINECT_SRC})
+add_executable(eigenHomography src/eigenHomography.cpp)
 
-target_link_libraries(homographyTest kinectwrapper
+target_link_libraries(
+    homographyTest 
+    kinectwrapper
+    k4a
+    # k4abt
+    k4arecord
+    pthread
+    # apriltag
+    #vision_geometry
+    GL
+    GLU
+    glfw
+    gthread-2.0
+    ${OpenCV_LIBRARIES}
+    ${GTK3_LIBRARIES}
+    ${CAIRO_LIBRARIES}
+    ${CERES_LIBRARIES}
+    ${Boost_PROGRAM_OPTIONS_LIBRARY}
+    # /usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6.so
+    # /usr/local/lib/libpython3.11.so
+    ${PythonLibs_LIBRARIES}
+    # ${Python3_LIBRARIES}
+)
+
+target_link_libraries(
+    eigenHomography 
+    kinectwrapper
     k4a
     # k4abt
     k4arecord

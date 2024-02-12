@@ -5,22 +5,8 @@
 #include <k4a/k4a.hpp>
 #include <Eigen/Dense>
 #include <vector>
-#include <opencv2/opencv.hpp>
 
 
-
-std::vector<cv::Point2d> findCorners(cv::Mat grayImg, cv::Mat colorImg, cv::Size numCorners) {
-std::vector<cv::Point2d> corners;
-bool found = cv::findChessboardCorners(grayImg, numCorners, corners, cv::CALIB_CB_ADAPTIVE_THRESH + cv::CALIB_CB_NORMALIZE_IMAGE);
-if (found) {
-    // cv::drawChessboardCorners(colorImg, numCorners, cv::Mat(corners), found);
-    // cv::imshow("Gray Corners", colorImg);
-    // cv::waitKey(0);
-} else {
-    std::cerr << "Error: No chessboard found in image." << std::endl;
-}
-return corners;
-}
 
 //Generates a model chessboard of dimension numInternalRows by numInternalCols
 //We assume the chessboard in picture is oriented normally so we generate
@@ -211,18 +197,18 @@ void showHomography(std::vector<cv::Point2d>& modelPoints, std::vector<cv::Point
 
 
 void *captureThread(void *data) {
-    SKWrapper *skw = (SKWrapper *)data;
+    //SKWrapper *skw = (SKWrapper *)data;
     //while(keepRunning) {
-        skw->_mostRecentPacket = SKPacket(skw);
-        SKPacket packet = skw->_mostRecentPacket;
-        k4a::capture cap = skw->_mostRecentPacket.getCapture();
-        skw->capture(&cap);
-        skw->_mostRecentPacket.setCapture(cap);
+        // skw->_mostRecentPacket = SKPacket(skw);
+        // SKPacket packet = skw->_mostRecentPacket;
+        // k4a::capture cap = skw->_mostRecentPacket.getCapture();
+        // skw->capture(&cap);
+        // skw->_mostRecentPacket.setCapture(cap);
         
-        k4a::image colorImg = skw->_mostRecentPacket.getColorImage();
-        cv::Mat cvImg = cv::Mat(colorImg.get_height_pixels(), colorImg.get_width_pixels(), CV_8UC4, colorImg.get_buffer());
-        cv::Mat grayImg;
-        cv::cvtColor(cvImg, grayImg, cv::COLOR_BGR2GRAY);
+        // k4a::image colorImg = skw->_mostRecentPacket.getColorImage();
+        // cv::Mat cvImg = cv::Mat(colorImg.get_height_pixels(), colorImg.get_width_pixels(), CV_8UC4, colorImg.get_buffer());
+        // cv::Mat grayImg;
+        // cv::cvtColor(cvImg, grayImg, cv::COLOR_BGR2GRAY);
 
 
         // cv::imshow("Image", grayImg);
@@ -236,7 +222,7 @@ void *captureThread(void *data) {
         std::vector<cv::Point2d> corners = {
         cv::Point2d(625.0d, 625.0d),
         cv::Point2d(875.0d, 625.0d),
-        cv::Point2d(875.0d, 875.0d),
+        cv::Point2d(1000.0d, 875.0d),
         cv::Point2d(625.0d, 875.0d)
     };
 
@@ -303,7 +289,6 @@ int main() {
     pthread_t threadC;
     pthread_create(&threadC, NULL, captureThread, &skw);
     pthread_join(threadC, NULL);
-    //groundTruthHomography();
     
     return 0;
 }
