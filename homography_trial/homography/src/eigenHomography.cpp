@@ -173,6 +173,16 @@ vector<pair<Eigen::Vector2d, Eigen::Vector2d>> makeCorrespondences(Eigen::Matrix
     return result;
 }
 
+Eigen::Matrix3f getIntrinsic(const k4a::calibration &cal) {
+    const k4a_calibration_intrinsic_parameters_t::_param &i = cal.color_camera_calibration.intrinsics.parameters.param;
+    Eigen::Matrix3f camera_matrix = Eigen::Matrix3f::Identity();
+    camera_matrix(0, 0) = i.fx;
+    camera_matrix(1, 1) = i.fy;
+    camera_matrix(0, 2) = i.cx;
+    camera_matrix(1, 2) = i.cy;
+    return camera_matrix;
+}
+
 Eigen::MatrixXd homToCart(Eigen::MatrixXd srcPts) {
     Eigen::MatrixXd dstPts(2, srcPts.cols());
     dstPts.row(0) = srcPts.row(0).array() / srcPts.row(2).array();
@@ -314,7 +324,9 @@ void testOnImageData() {
 int main() {
     //testOnRandomTransforms();
     //testOnImageData();
-    
+    k4a_device_configuration_t main_config = get_master_config();
+    k4a::calibration main_calibration = capturer.get_master_device().get_calibration(main_config.depth_mode, main_config.color_resolution);
+    getIntrinsic(main_calibration);
     return 0;
 }
 
